@@ -1,11 +1,13 @@
-import Alert from "../components/alert";
-import Badge from "../components/badge";
+import Alert from "../components/Alert";
+import Badge from "../components/Badge";
+import Button from "../components/Button";
 
 const S1 = () => {
   return (
     <>
       {/* <Alert /> */}
-      <Badge/>
+      {/* <Badge/> */}
+      <Button/>
     </>
   )
 }

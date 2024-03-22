@@ -1,7 +1,7 @@
 const Badge = () => {
   return (
     <>
-      <p>Inline-block para evitar overflow de box model</p>
+      <p>Inline-block para evitar overflow de box model de los inlines como span</p>
 
       <div className="text-white bg-purple-700 rounded-md px-2 py-2 font-normal w-40 text-center mb-2">
         <button>Notifications <span className=" py-1 px-2 bg-gray-500 rounded-md text-sm">4</span></button>
@@ -108,7 +108,7 @@ const Badge = () => {
           Light
         </span>
 
-        <span className="bg-black text-white font-bold rounded-full py-1 px-3 text-xs mr-2">
+        <span className="bg-black text-white font-bold rounded-full py-1 px-3 text-xs mr-2  cursor-pointer">
           Dark
         </span>
       </div>
