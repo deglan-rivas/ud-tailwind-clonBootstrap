@@ -11,6 +11,107 @@ const Badge = () => {
         Notifications <span className="bg-gray-500 py-1 px-2 rounded-md text-sm">4</span>
       </button>
 
+      <div className="p-4">
+        <span className="bg-blue-500 text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Primary
+        </span>
+
+        <span className="bg-gray-500 text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Secondary
+        </span>
+
+        <span className="bg-green-500 text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Success
+        </span>
+
+        <span className="bg-red-500 text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Danger
+        </span>
+
+        <span className="bg-yellow-500 text-black font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Warning
+        </span>
+
+        <span className="bg-green-500 text-black font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Info
+        </span>
+
+        <span className="bg-white text-black font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Light
+        </span>
+
+        <span className="bg-black text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Dark
+        </span>
+      </div>
+
+      <div className="p-4">
+        <span className="bg-blue-200 text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Primary
+        </span>
+
+        <span className="bg-gray-200 text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Secondary
+        </span>
+
+        <span className="bg-green-200 text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Success
+        </span>
+
+        <span className="bg-red-200 text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Danger
+        </span>
+
+        <span className="bg-yellow-300 text-gray-300 font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Warning
+        </span>
+
+        <span className="bg-green-200 text-gray-400 font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Info
+        </span>
+
+        <span className="bg-white text-gray-300 font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Light
+        </span>
+
+        <span className="bg-gray-300 text-white font-bold rounded-md py-1 px-3 text-xs mr-2">
+          Dark
+        </span>
+      </div>
+
+      <div className="p-4">
+        <span className="bg-blue-500 text-white font-bold rounded-full py-1 px-3 text-xs mr-2">
+          Primary
+        </span>
+
+        <span className="bg-gray-500 text-white font-bold rounded-full py-1 px-3 text-xs mr-2">
+          Secondary
+        </span>
+
+        <span className="bg-green-500 text-white font-bold rounded-full py-1 px-3 text-xs mr-2">
+          Success
+        </span>
+
+        <span className="bg-red-500 text-white font-bold rounded-full py-1 px-3 text-xs mr-2">
+          Danger
+        </span>
+
+        <span className="bg-yellow-500 text-black font-bold rounded-full py-1 px-3 text-xs mr-2">
+          Warning
+        </span>
+
+        <span className="bg-green-500 text-black font-bold rounded-full py-1 px-3 text-xs mr-2">
+          Info
+        </span>
+
+        <span className="bg-white text-black font-bold rounded-full py-1 px-3 text-xs mr-2">
+          Light
+        </span>
+
+        <span className="bg-black text-white font-bold rounded-full py-1 px-3 text-xs mr-2">
+          Dark
+        </span>
+      </div>
 
       <h1 className="text-6xl mb-4">
         Example Heading
