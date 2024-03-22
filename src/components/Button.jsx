@@ -4,6 +4,7 @@ const Button = () => {
       <p>los button ya incluyen el cursor-pointer del hover</p>
 
       <div className="mb-2">
+        <p>filled</p>
         <button className="bg-blue-500 text-white rounded-md px-2 py-1 mr-2 hover:bg-blue-600">
           Primary
         </button>
@@ -37,7 +38,8 @@ const Button = () => {
         </button>
       </div>
 
-      <div>
+      <div className="mb-2">
+        <p>Outline</p>
         <button className="text-blue-500 border border-blue-500 rounded-md px-2 py-1 mr-2 hover:bg-blue-500 hover:text-white">
           Primary
         </button>
@@ -67,6 +69,181 @@ const Button = () => {
         </button>
 
         <button className="text-white border border-white rounded-md px-2 py-1 mr-2 hover:bg-black hover:text-white">
+          Dark
+        </button>
+      </div>
+
+      <div className="mb-2">
+        <p>Small</p>
+        <button className="text-blue-500 border border-blue-500 rounded-md px-2 py-1 mr-2 hover:bg-blue-500 hover:text-white text-xs">
+          Primary
+        </button>
+
+        <button className="text-gray-500 border border-gray-500 rounded-md px-2 py-1 mr-2 hover:bg-gray-500 hover:text-white text-xs">
+          Secondary
+        </button>
+
+        <button className="text-green-500 border border-green-500 rounded-md px-2 py-1 mr-2 hover:bg-green-500 hover:text-white text-xs">
+          Success
+        </button>
+
+        <button className="text-red-500 border border-red-500 rounded-md px-2 py-1 mr-2 hover:bg-red-500 hover:text-white text-xs">
+          Danger
+        </button>
+
+        <button className="text-yellow-500 border border-yellow-500 rounded-md px-2 py-1 mr-2 hover:bg-yellow-500 hover:text-white text-xs">
+          Warning
+        </button>
+
+        <button className="text-cyan-500 border border-cyan-500 rounded-md px-2 py-1 mr-2 hover:bg-cyan-500 hover:text-white text-xs">
+          Info
+        </button>
+
+        <button className="text-black border border-black rounded-md px-2 py-1 mr-2 hover:bg-black hover:text-white text-xs">
+          Light
+        </button>
+
+        <button className="text-white border border-white rounded-md px-2 py-1 mr-2 hover:bg-black hover:text-white text-xs">
+          Dark
+        </button>
+      </div>
+
+      <div className="mb-2">
+        <p>Extralarge</p>
+        <button className="text-blue-500 border border-blue-500 rounded-md px-2 py-1 mr-2 hover:bg-blue-500 hover:text-white text-xl">
+          Primary
+        </button>
+
+        <button className="text-gray-500 border border-gray-500 rounded-md px-2 py-1 mr-2 hover:bg-gray-500 hover:text-white text-xl">
+          Secondary
+        </button>
+
+        <button className="text-green-500 border border-green-500 rounded-md px-2 py-1 mr-2 hover:bg-green-500 hover:text-white text-xl">
+          Success
+        </button>
+
+        <button className="text-red-500 border border-red-500 rounded-md px-2 py-1 mr-2 hover:bg-red-500 hover:text-white text-xl">
+          Danger
+        </button>
+
+        <button className="text-yellow-500 border border-yellow-500 rounded-md px-2 py-1 mr-2 hover:bg-yellow-500 hover:text-white text-xl">
+          Warning
+        </button>
+
+        <button className="text-cyan-500 border border-cyan-500 rounded-md px-2 py-1 mr-2 hover:bg-cyan-500 hover:text-white text-xl">
+          Info
+        </button>
+
+        <button className="text-black border border-black rounded-md px-2 py-1 mr-2 hover:bg-black hover:text-white text-xl">
+          Light
+        </button>
+
+        <button className="text-white border border-white rounded-md px-2 py-1 mr-2 hover:bg-black hover:text-white text-xl">
+          Dark
+        </button>
+      </div>
+
+      <div className="mb-2">
+        <p>Pills</p>
+        <button className="text-blue-500 border border-blue-500 rounded-full px-2 py-1 mr-2 hover:bg-blue-500 hover:text-white text-base">
+          Primary
+        </button>
+
+        <button className="text-gray-500 border border-gray-500 rounded-full px-2 py-1 mr-2 hover:bg-gray-500 hover:text-white text-base">
+          Secondary
+        </button>
+
+        <button className="text-green-500 border border-green-500 rounded-full px-2 py-1 mr-2 hover:bg-green-500 hover:text-white text-base">
+          Success
+        </button>
+
+        <button className="text-red-500 border border-red-500 rounded-full px-2 py-1 mr-2 hover:bg-red-500 hover:text-white text-base">
+          Danger
+        </button>
+
+        <button className="text-yellow-500 border border-yellow-500 rounded-full px-2 py-1 mr-2 hover:bg-yellow-500 hover:text-white text-base">
+          Warning
+        </button>
+
+        <button className="text-cyan-500 border border-cyan-500 rounded-full px-2 py-1 mr-2 hover:bg-cyan-500 hover:text-white text-base">
+          Info
+        </button>
+
+        <button className="text-black border border-black rounded-full px-2 py-1 mr-2 hover:bg-black hover:text-white text-base">
+          Light
+        </button>
+
+        <button className="text-white border border-white rounded-full px-2 py-1 mr-2 hover:bg-black hover:text-white text-base">
+          Dark
+        </button>
+      </div>
+
+      <p>full width - pill</p>
+      <div className="mb-2 mx-auto w-1/2">
+        <button className="text-blue-500 border border-blue-500 rounded-full px-2 py-1 mr-2 hover:bg-blue-500 hover:text-white text-base w-1/2 mb-2">
+          Primary
+        </button>
+
+        <button className="text-gray-500 border border-gray-500 rounded-full px-2 py-1 mr-2 hover:bg-gray-500 hover:text-white text-base w-1/2 mb-2">
+          Secondary
+        </button>
+
+        <button className="text-green-500 border border-green-500 rounded-full px-2 py-1 mr-2 hover:bg-green-500 hover:text-white text-base w-1/2 mb-2">
+          Success
+        </button>
+
+        <button className="text-red-500 border border-red-500 rounded-full px-2 py-1 mr-2 hover:bg-red-500 hover:text-white text-base w-1/2 mb-2">
+          Danger
+        </button>
+
+        <button className="text-yellow-500 border border-yellow-500 rounded-full px-2 py-1 mr-2 hover:bg-yellow-500 hover:text-white text-base w-1/2 mb-2">
+          Warning
+        </button>
+
+        <button className="text-cyan-500 border border-cyan-500 rounded-full px-2 py-1 mr-2 hover:bg-cyan-500 hover:text-white text-base w-1/2 mb-2">
+          Info
+        </button>
+
+        <button className="text-black border border-black rounded-full px-2 py-1 mr-2 hover:bg-black hover:text-white text-base w-1/2 mb-2">
+          Light
+        </button>
+
+        <button className="text-white border border-white rounded-full px-2 py-1 mr-2 hover:bg-black hover:text-white text-base w-1/2 mb-2">
+          Dark
+        </button>
+      </div>
+
+      <p>full width - rounded small</p>
+      <div className="mb-2 mx-auto w-1/2">
+        <button className="text-blue-500 border border-blue-500 rounded-sm px-2 py-1 mr-2 hover:bg-blue-500 hover:text-white text-base w-1/2 mb-2">
+          Primary
+        </button>
+
+        <button className="text-gray-500 border border-gray-500 rounded-sm px-2 py-1 mr-2 hover:bg-gray-500 hover:text-white text-base w-1/2 mb-2">
+          Secondary
+        </button>
+
+        <button className="text-green-500 border border-green-500 rounded-sm px-2 py-1 mr-2 hover:bg-green-500 hover:text-white text-base w-1/2 mb-2">
+          Success
+        </button>
+
+        <button className="text-red-500 border border-red-500 rounded-sm px-2 py-1 mr-2 hover:bg-red-500 hover:text-white text-base w-1/2 mb-2">
+          Danger
+        </button>
+
+        <button className="text-yellow-500 border border-yellow-500 rounded-sm px-2 py-1 mr-2 hover:bg-yellow-500 hover:text-white text-base w-1/2 mb-2">
+          Warning
+        </button>
+
+        <button className="text-cyan-500 border border-cyan-500 rounded-sm px-2 py-1 mr-2 hover:bg-cyan-500 hover:text-white text-base w-1/2 mb-2">
+          Info
+        </button>
+
+        <button className="text-black border border-black rounded-sm px-2 py-1 mr-2 hover:bg-black hover:text-white text-base w-1/2 mb-2">
+          Light
+        </button>
+
+        <button className="text-white border border-white rounded-sm px-2 py-1 mr-2 hover:bg-black hover:text-white text-base w-1/2 mb-2">
           Dark
         </button>
       </div>
