@@ -259,7 +259,7 @@ const ButtonGroup = () => {
       </div>
 
       <p>input group</p>
-      <div>
+      <div className="mb-2">
         <p className="inline-block pr-2">Elemento extra</p>
         <div className="inline-block">
           <div className="flex">
@@ -279,6 +279,89 @@ const ButtonGroup = () => {
           </div>
         </div>
       </div>
+
+      <div className="inline-block">
+        <div className="flex flex-col">
+          <input 
+            type="radio" 
+            name="vr" 
+            id="vr-1"
+            className="peer/top hidden"
+          />
+          <label 
+            htmlFor="vr-1"
+            className="px-4 py-2 bg-white text-red-600 peer-checked/top:bg-red-600 peer-checked/top:text-white border border-red-600 rounded-t-md"  
+          >
+            Radio 1
+          </label>
+          <input 
+            type="radio" 
+            name="vr" 
+            id="vr-2"
+            className="peer/middle hidden"
+          />
+          <label 
+            htmlFor="vr-2"
+            className="px-4 py-2 bg-white text-red-600 peer-checked/middle:bg-red-600 peer-checked/middle:text-white border-x border-red-600"  
+          >
+            Radio 2
+          </label>
+          <input 
+            type="radio" 
+            name="vr" 
+            id="vr-3"
+            className="peer/bottom hidden"
+          />
+          <label 
+            htmlFor="vr-3"
+            className="px-4 py-2 bg-white text-red-600 peer-checked/bottom:bg-red-600 peer-checked/bottom:text-white border border-red-600 rounded-b-md"  
+          >
+            Radio 3
+          </label>
+        </div>
+      </div>
+
+      <p>Un párrafo que funciona como separador al ser block incluso si está vacío</p>
+      {/* <p></p> */}
+      {/* <div> */}
+        <div className="inline-block">
+          <div className="flex flex-col">
+            <input 
+              type="checkbox" 
+              id="vc-1"
+              className="peer/top hidden"
+            />
+            <label 
+              htmlFor="vc-1"
+              className="px-4 py-2 bg-white text-blue-600 peer-checked/top:bg-blue-600 peer-checked/top:text-white border border-blue-600 rounded-t-md"  
+            >
+              Checkbox 1
+            </label>
+            <input 
+              type="checkbox" 
+              id="vc-2"
+              className="peer/middle hidden"
+            />
+            <label 
+              htmlFor="vc-2"
+              className="px-4 py-2 bg-white text-blue-600 peer-checked/middle:bg-blue-600 peer-checked/middle:text-white border-x border-blue-600"  
+            >
+              Checkbox 2
+            </label>
+            <input 
+              type="checkbox" 
+              id="vc-3"
+              className="peer/bottom hidden"
+            />
+            <label 
+              htmlFor="vc-3"
+              className="px-4 py-2 bg-white text-blue-600 peer-checked/bottom:bg-blue-600 peer-checked/bottom:text-white border border-blue-600 rounded-b-md"  
+            >
+              Checkbox 3
+            </label>
+          </div>
+        </div>
+      {/* </div> */}
     </div>
   )
 }
