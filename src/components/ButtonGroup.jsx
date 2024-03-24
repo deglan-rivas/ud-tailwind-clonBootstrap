@@ -257,6 +257,28 @@ const ButtonGroup = () => {
           Right
         </label>
       </div>
+
+      <p>input group</p>
+      <div>
+        <p className="inline-block pr-2">Elemento extra</p>
+        <div className="inline-block">
+          <div className="flex">
+          {/* <div className="flex bg-red-600"> */}
+            <label 
+              htmlFor="bg-group"
+              className="bg-gray-100 text-blue-500 border border-blue-500 border-r-0 rounded-l-md px-4 py-2"
+            >
+              @
+            </label>
+            <input 
+              type="text"
+              id="bg-group"
+              className="px-4 py-2 border placeholder:text-blue-500 border-blue-500 rounded-r-md focus:outline-none focus:ring focus:border-blue-400"
+              placeholder="Input group example"
+              />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
