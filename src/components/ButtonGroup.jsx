@@ -230,6 +230,33 @@ const ButtonGroup = () => {
           Right
         </label>
       </div>
+
+      <div className="mb-2 flex">
+   
+        <input type="checkbox" className="peer/left hidden" id="c3-left"/>
+        <label
+          className="border-l border-y border-red-600 bg-white text-red-600 px-4 py-2 hover:bg-red-600 hover:text-white rounded-l peer-checked/left:bg-red-600 peer-checked/left:text-white inline-block"
+          htmlFor="c3-left"
+        >
+          Left
+        </label>
+   
+        <input type="checkbox" className="peer/middle hidden" id="c3-middle"/>
+        <label
+          className="border-y border-red-600 bg-white text-red-600 px-4 py-2 hover:bg-red-600 hover:text-white peer-checked/middle:bg-red-600 peer-checked/middle:text-white inline-block"
+          htmlFor="c3-middle"
+        >
+          Middle
+        </label>
+   
+        <input type="checkbox" className="peer/right hidden" id="c3-right"/>
+        <label
+          className="border-r border-y border-red-600 bg-white text-red-600 px-4 py-2 rounded-r hover:bg-red-600 hover:text-white peer-checked/right:bg-red-600 peer-checked/right:text-white inline-block"
+          htmlFor="c3-right"
+        >
+          Right
+        </label>
+      </div>
     </div>
   )
 }
