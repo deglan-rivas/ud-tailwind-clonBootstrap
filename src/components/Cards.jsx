@@ -292,6 +292,26 @@ const Card = () => {
               </p>
           </div>
         </div>
+
+        <div className="border border-gray-300 rounded-md divide-y divide-y-gray-300 mb-4">
+          <h5 className="bg-gray-100 py-2 px-4">
+            Quote
+          </h5>
+          <div className="px-4 py-2">
+            <h5 className="text-lg font-medium">
+              A well-known quote, contained in a blockquote element.
+            </h5>
+            <p className="text-gray-600">
+              <span className="select-none pr-2">
+                —
+              </span>
+              Someone famous in 
+              <span className="pl-1 italic ">
+                Source Title
+              </span>
+            </p>
+          </div>
+        </div>
       </div>
     </>
   )
