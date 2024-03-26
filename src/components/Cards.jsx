@@ -124,7 +124,105 @@ const Card = () => {
             Go somewhere
           </a>
         </div>
-      </div>  
+
+        <div className="border border-gray-200 rounded-md bg-blue-600 w-72 divide-y mb-4">
+          <h5 className="text-white py-3 px-4">
+            Header
+          </h5>
+          <div className="text-white">
+              <h5 className="text-xl font-medium py-3 px-4">
+                Primary card title
+              </h5>
+              <p className="mb-3 px-4">
+                Some quick example text to build on the card title and make up the builk of the cards content
+              </p>
+          </div>
+        </div>
+
+        <div className="border border-gray-200 rounded-md bg-gray-600 w-72 divide-y mb-4">
+          <h5 className="text-white py-3 px-4">
+            Header
+          </h5>
+          <div className="text-white">
+              <h5 className="text-xl font-medium py-3 px-4">
+                Secondary card title
+              </h5>
+              <p className="mb-3 px-4">
+                Some quick example text to build on the card title and make up the builk of the cards content
+              </p>
+          </div>
+        </div>
+
+        <div className="border border-gray-200 rounded-md bg-green-600 w-72 divide-y mb-4">
+          <h5 className="text-white py-3 px-4">
+            Header
+          </h5>
+          <div className="text-white">
+              <h5 className="text-xl font-medium py-3 px-4">
+                Success card title
+              </h5>
+              <p className="mb-3 px-4">
+                Some quick example text to build on the card title and make up the builk of the cards content
+              </p>
+          </div>
+        </div>
+
+        <div className="border border-gray-200 rounded-md bg-red-600 w-72 divide-y mb-4">
+          <h5 className="text-white py-3 px-4">
+            Header
+          </h5>
+          <div className="text-white">
+              <h5 className="text-xl font-medium py-3 px-4">
+              Danger card title
+              </h5>
+              <p className="mb-3 px-4">
+                Some quick example text to build on the card title and make up the builk of the cards content
+              </p>
+          </div>
+        </div>
+
+        <div className="border border-gray-200 rounded-md bg-yellow-500 w-72 divide-y mb-4">
+          <h5 className="text-black py-3 px-4">
+            Header
+          </h5>
+          <div className="text-black">
+              <h5 className="text-xl font-medium py-3 px-4">
+                Warning card title
+              </h5>
+              <p className="mb-3 px-4">
+                Some quick example text to build on the card title and make up the builk of the cards content
+              </p>
+          </div>
+        </div>
+
+        <div className="border border-gray-300 rounded-md bg-white w-72 divide-y divide-gray-300 mb-4">
+          <h5 className="text-black bg-gray-100 py-3 px-4">
+            Header
+          </h5>
+          <div className="text-black">
+              <h5 className="text-xl font-medium py-3 px-4">
+                Light card title
+              </h5>
+              <p className="mb-3 px-4">
+                Some quick example text to build on the card title and make up the builk of the cards content
+              </p>
+          </div>
+        </div>
+
+        <div className="border border-gray-200 rounded-md bg-gray-900 w-72 divide-y mb-4">
+          <h5 className="text-white py-3 px-4">
+            Header
+          </h5>
+          <div className="text-white">
+              <h5 className="text-xl font-medium py-3 px-4">
+                Dark card title
+              </h5>
+              <p className="mb-3 px-4">
+                Some quick example text to build on the card title and make up the builk of the cards content
+              </p>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
