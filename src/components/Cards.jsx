@@ -1,8 +1,8 @@
 const Card = () => {
   return (
     <>
-      <div className="p-8 w-96">
-        <div className="mb-4 border border-gray-200 p-4 rounded-md text-center">
+      <div className="p-8">
+        <div className="mb-4 border border-gray-200 p-4 rounded-md text-center w-96">
           This is some text within a card body
         </div>
 
@@ -49,6 +49,81 @@ const Card = () => {
           <li className="py-2 px-3">A third item</li>
           <li className="py-2 px-3 bg-gray-200">Card footer</li>
         </ul>
+
+        <div className="p-4 border border-gray-300 w-3/4 mb-4">
+          <h5 className="text-xl mb-2 font-medium">
+            Card title
+          </h5>
+          <p className="mb-3">
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <a 
+            href=""
+            className="px-3 py-2 bg-blue-600 text-white hover:bg-blue-800 rounded-md"
+          >
+            Go somewhere
+          </a>
+        </div>
+
+        <div className="p-4 border border-gray-300 w-1/2 mb-4">
+          <h5 className="text-xl mb-2 font-medium">
+            Card title
+          </h5>
+          <p className="mb-3">
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <a 
+            href=""
+            className="px-3 py-2 bg-blue-600 text-white hover:bg-blue-800 rounded-md"
+          >
+            Go somewhere
+          </a>
+        </div>
+
+        <div className="p-4 border border-gray-300 w-1/2 mb-4 text-left">
+          <h5 className="text-xl mb-2 font-medium">
+            Special title treatment
+          </h5>
+          <p className="mb-3">
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <a 
+            href=""
+            className="px-3 py-2 bg-blue-600 text-white hover:bg-blue-800 rounded-md"
+          >
+            Go somewhere
+          </a>
+        </div>
+
+        <div className="p-4 border border-gray-300 w-1/2 mb-4 text-center">
+          <h5 className="text-xl mb-2 font-medium">
+            Special title treatment
+          </h5>
+          <p className="mb-3">
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <a 
+            href=""
+            className="px-3 py-2 bg-blue-600 text-white hover:bg-blue-800 rounded-md"
+          >
+            Go somewhere
+          </a>
+        </div>
+
+        <div className="p-4 border border-gray-300 w-1/2 mb-4 text-right">
+          <h5 className="text-xl mb-2 font-medium">
+            Special title treatment
+          </h5>
+          <p className="mb-3">
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <a 
+            href=""
+            className="px-3 py-2 bg-blue-600 text-white hover:bg-blue-800 rounded-md"
+          >
+            Go somewhere
+          </a>
+        </div>
       </div>  
     </>
   )
