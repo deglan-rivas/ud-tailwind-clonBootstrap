@@ -333,6 +333,24 @@ const Card = () => {
             2 days ago
           </h5>
         </div>
+
+        <div className="p-4 border border-gray-300 w-1/2 mb-4 text-center">
+          <h5 className="bg-gray-100 py-2 px-4 mb-2">
+            Featured
+          </h5>
+          <h5 className="text-xl mb-2 font-medium">
+            Special title treatment
+          </h5>
+          <p className="mb-3">
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <a 
+            href=""
+            className="px-3 py-2 bg-blue-600 text-white hover:bg-blue-800 rounded-md mb-2 inline-block"
+          >
+            Go somewhere
+          </a>
+        </div>
       </div>
     </>
   )
