@@ -293,7 +293,11 @@ const Card = () => {
           </div>
         </div>
 
-        <div className="border border-gray-300 rounded-md divide-y divide-y-gray-300 mb-4">
+        <p className="mb-2">
+          overflow-hidden necesario: siempre será necesario cuando el div container tenga borde y los hijos tengan bg-color, notar ejemplos de arriba
+        </p>
+        <div className="border border-gray-300 rounded-md divide-y divide-y-gray-300 mb-4 overflow-hidden">
+        {/* <div className="border border-gray-300 rounded-md divide-y divide-y-gray-300 mb-4"> */}
           <h5 className="bg-gray-100 py-2 px-4">
             Quote
           </h5>
@@ -334,22 +338,77 @@ const Card = () => {
           </h5>
         </div>
 
+        <p className="mb-2">
+          Una alternativa al div general que usa clase divide-y-2: un div menos y manipular bordes manualmente, la navegación puede usar el bg-white o transparent e ir jugando con colores y tamaños de border-bottom overflow-hidden opcional: solo se ve con macrozoom x250 o más
+        </p>
+
         <div className="p-4 border border-gray-300 w-1/2 mb-4 text-center">
-          <h5 className="bg-gray-100 py-2 px-4 mb-2">
-            Featured
-          </h5>
-          <h5 className="text-xl mb-2 font-medium">
-            Special title treatment
-          </h5>
-          <p className="mb-3">
-            With supporting text below as a natural lead-in to additional content.
-          </p>
-          <a 
-            href=""
-            className="px-3 py-2 bg-blue-600 text-white hover:bg-blue-800 rounded-md mb-2 inline-block"
-          >
-            Go somewhere
-          </a>
+          <div className="bg-gray-100 pt-2 px-4 flex border border-gray-300 rounded-t-md">
+            <div className="bg-white py-1 px-3 border border-gray-300 border-b-0 cursor-pointer rounded-t-md -mb-px">
+              Active
+            </div>
+            <div className="bg-transparent py-1 px-3 border border-transparent border-b-0 rounded-t-md hover:border-gray-300 cursor-pointer text-blue-600">
+              Link
+            </div>
+            <div className="bg-transparent py-1 px-3 border border-transparent border-b-0 rounded-t-md text-gray-400">
+              Disabled
+            </div>
+          </div>
+          <div className="border border-t-0 border-gray-300 rounded-b-md py-2">
+            <h5 className="text-xl mb-2 font-medium">
+              Special title treatment
+            </h5>
+            <p className="mb-3">
+              With supporting text below as a natural lead-in to additional content.
+            </p>
+            <a 
+              href=""
+              className="px-3 py-2 bg-blue-600 text-white hover:bg-blue-800 rounded-md mb-2 inline-block"
+            >
+              Go somewhere
+            </a>
+          </div>
+        </div>
+
+        <div className="border border-gray-300 rounded-md divide-y w-72 overflow-hidden mb-4"> 
+          <div className="bg-gray-400 h-48 flex justify-center items-center">
+            <p className="text-white select-none">Image cap</p>
+          </div>
+          <div className=" p-2">
+            <h5 className="text-lg font-medium py-2">
+              Card title
+            </h5>
+            <p className="mb-2">
+              Some quick example text to build on the card title and make up the bulk of the cards content.
+            </p>
+            <a 
+              href="#"
+              className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+            >
+              Go somewhere
+            </a>
+          </div>
+        </div>
+
+        <div className="border border-gray-300 rounded-md divide-y w-72 overflow-hidden mb-4"> 
+          <div className="bg-gradient-to-tl from-violet-400 from-20% to-pink-600 to-90% h-48 flex justify-center items-center">
+          {/* <div className="bg-gradient-to-tl from-violet-400 from-10% via-blue-400 via-50% to-pink-600 to-90% h-48 flex justify-center items-center"> */}
+            <p className="text-white select-none">Image cap</p>
+          </div>
+          <div className=" p-2">
+            <h5 className="text-lg font-medium py-2">
+              Card title
+            </h5>
+            <p className="mb-2">
+              Some quick example text to build on the card title and make up the bulk of the cards content.
+            </p>
+            <a 
+              href="#"
+              className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+            >
+              Go somewhere
+            </a>
+          </div>
         </div>
       </div>
     </>
