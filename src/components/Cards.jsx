@@ -410,6 +410,35 @@ const Card = () => {
             </a>
           </div>
         </div>
+
+        <p className="mb-4">TODO: check commentaries</p>
+        <div className="mb-4">
+          <a href="#" className="inline-block bg-gradient-to-r from-violet-400 from-10% to-pink-400 to-90% px-3 py-2 rounded-md text-white hover:from-pink-400 hover:to-violet-400 hover:scale-125 transition ease-in-out duration-700 delay-200">
+          {/* <a href="#" className="inline-block bg-violet-400 hover:bg-pink-400 px-3 py-2 rounded-md text-white hover:scale-110 transition ease-in-out duration-700 delay-200"> */}
+            Press me
+          </a>
+        </div>
+
+        <div className="border border-gray-300 rounded-md divide-y w-72 overflow-hidden mb-4"> 
+          <div className="bg-gradient-to-tl from-violet-400 from-20% to-pink-600 to-90% h-48 flex justify-center items-center bg-clip-text">
+          {/* <div className="bg-gradient-to-tl from-violet-400 from-10% via-blue-400 via-50% to-pink-600 to-90% h-48 flex justify-center items-center"> */}
+            <p className="text-transparent text-4xl select-none">Image cap</p>
+          </div>
+          <div className=" p-2">
+            <h5 className="text-lg font-medium py-2">
+              Card title
+            </h5>
+            <p className="mb-2">
+              Some quick example text to build on the card title and make up the bulk of the cards content.
+            </p>
+            <a 
+              href="#"
+              className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+            >
+              Go somewhere
+            </a>
+          </div>
+        </div>
       </div>
     </>
   )
