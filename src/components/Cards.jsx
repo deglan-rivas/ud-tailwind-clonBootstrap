@@ -540,6 +540,390 @@ const Card = () => {
           </div>
         </div>
 
+        <ul className="mb-4">
+          <li> &#x2022; multiply darken y luminosity priorizan la imagen con filtro del bg y más o menos luz </li>
+          <li>&#x2022; screen y light mucha saturación a la imagen y poco bg</li>
+          <li>&#x2022; overlay también satura la imagen pero muestra más bg por eso bajar del green 400 al 300</li>
+          <li>&#x2022; el hard light es la pepa: combina los colores con el bg, buen filtro</li>
+          <li>&#x2022; del resto todos combinan opacidad con saturación resaltando el bg o los colores del bg image, si se ve un filtro raro ir a buscarlo hasta encontrarlo nomás xd por lo general importa más que el bg predomine, pues eso es controlable por nosotros, los tonos del bg image no: así vienen</li>
+          <li>Big bull or bug dot for freecodecamp: &#x2022;</li>
+        </ul>
+        <div className="mb-4 flex gap-2">
+          <div className="border border-gray-300 rounded-md divide-y w-72 overflow-hidden mb-4"> 
+            {/* <div className="h-48 overflow-hidden">
+              <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+            </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-center bg-[url('https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg')] bg-green-400 bg-blend-multiply" >
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div className="border border-gray-300 rounded-md divide-y w-auto overflow-hidden mb-4"> 
+          {/* <div className="h-48 overflow-hidden">
+            <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+          </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-no-repeat bg-center bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')] bg-green-400 bg-blend-multiply">
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-4 flex gap-2">
+          <div className="border border-gray-300 rounded-md divide-y w-72 overflow-hidden mb-4"> 
+            {/* <div className="h-48 overflow-hidden">
+              <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+            </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-center bg-[url('https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg')] bg-green-400 bg-blend-screen" >
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div className="border border-gray-300 rounded-md divide-y w-auto overflow-hidden mb-4"> 
+          {/* <div className="h-48 overflow-hidden">
+            <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+          </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-no-repeat bg-center bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')] bg-green-400 bg-blend-screen">
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-4 flex gap-2">
+          <div className="border border-gray-300 rounded-md divide-y w-72 overflow-hidden mb-4"> 
+            {/* <div className="h-48 overflow-hidden">
+              <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+            </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-center bg-[url('https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg')] bg-green-300 bg-blend-overlay" >
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div className="border border-gray-300 rounded-md divide-y w-auto overflow-hidden mb-4"> 
+          {/* <div className="h-48 overflow-hidden">
+            <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+          </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-no-repeat bg-center bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')] bg-green-300 bg-blend-overlay">
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-4 flex gap-2">
+          <div className="border border-gray-300 rounded-md divide-y w-72 overflow-hidden mb-4"> 
+            {/* <div className="h-48 overflow-hidden">
+              <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+            </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-center bg-[url('https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg')] bg-green-400 bg-blend-hard-light" >
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div className="border border-gray-300 rounded-md divide-y w-auto overflow-hidden mb-4"> 
+          {/* <div className="h-48 overflow-hidden">
+            <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+          </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-no-repeat bg-center bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')] bg-green-400 bg-blend-hard-light">
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-4 flex gap-2">
+          <div className="border border-gray-300 rounded-md divide-y w-72 overflow-hidden mb-4"> 
+            {/* <div className="h-48 overflow-hidden">
+              <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+            </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-center bg-[url('https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg')] bg-green-700 bg-blend-soft-light" >
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+          <div className="border border-gray-300 rounded-md divide-y w-auto overflow-hidden mb-4"> 
+          {/* <div className="h-48 overflow-hidden">
+            <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+          </div> */}
+            <div className="h-96 border border-gray-300 flex justify-center items-center bg-cover bg-no-repeat bg-center bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')] bg-green-700 bg-blend-soft-light">
+              <p className="text-white text-4xl select-none">Image cap</p>
+            </div>
+            <div className=" p-2">
+              <h5 className="text-lg font-medium py-2">
+                Card title
+              </h5>
+              <p className="mb-2">
+                Some quick example text to build on the card title and make up the bulk of the cards content.
+              </p>
+              <a 
+                href="#"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+              >
+                Go somewhere
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <p className="mb-4">Darken, multiply y soft-light son nuestros caballos ganadores para combinar con el texto, jugar un poco con las intensidades de colores, ejm: pink-600 == red-400 == violet-400. Eventualmente todas dan resultados similares si subimos a bajamos un poco entre 400 600 700 800. Ejm:</p>
+        <div className="mx-auto mb-1 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-violet-600 bg-cover bg-top bg-blend-multiply bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+        <div className="mx-auto mb-1 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-violet-600 bg-cover bg-top bg-blend-darken bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+        <div className="mx-auto mb-4 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-violet-800 bg-cover bg-top bg-blend-soft-light bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+
+        <div className="mx-auto mb-1 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-green-400 bg-cover bg-top bg-blend-multiply bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+        <div className="mx-auto mb-1 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-green-400 bg-cover bg-top bg-blend-darken bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+        <div className="mx-auto mb-4 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-green-700 bg-cover bg-top bg-blend-soft-light bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+
+        <div className="mx-auto mb-1 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-blue-400 bg-cover bg-top bg-blend-multiply bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+        <div className="mx-auto mb-1 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-blue-400 bg-cover bg-top bg-blend-darken bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+        <div className="mx-auto mb-4 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-blue-600 bg-cover bg-top bg-blend-soft-light bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+
+        <div className="mx-auto mb-1 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-yellow-500 bg-cover bg-top bg-blend-multiply bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+        <div className="mx-auto mb-1 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-yellow-500 bg-cover bg-top bg-blend-darken bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+        <div className="mx-auto mb-4 text-white rounded-md p-4 h-48 w-1/2 flex flex-col items-start justify-center bg-yellow-700 bg-cover bg-top bg-blend-soft-light bg-[url('https://cdn.pixabay.com/photo/2023/12/14/00/20/alaska-8448009_1280.jpg')]">
+          <h5 className="text-2xl font-medium mb-2">
+            Card title
+          </h5>
+          <p className="mb-2">
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p className="text-sm">
+            Last updated 3 mins ago
+          </p>
+        </div>
+
+        
+
+
+
 
       </div>
     </>
