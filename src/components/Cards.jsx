@@ -469,6 +469,29 @@ const Card = () => {
             </a>
           </div>
         </div>
+
+        <div className="border border-gray-300 rounded-md divide-y w-72 overflow-hidden mb-4"> 
+          {/* <div className="h-48 overflow-hidden">
+            <img src="https://cdn.pixabay.com/photo/2023/06/28/19/05/beautiful-black-woman-8095034_1280.jpg" alt="test" />
+          </div> */}
+          <div className="h-16 border border-gray-300 flex justify-center items-center bg-auto bg-left-top bg-repeat-round bg-[url('https://picsum.photos/100/100')]" >
+            <p className="text-white text-4xl select-none">Image cap</p>
+          </div>
+          <div className=" p-2">
+            <h5 className="text-lg font-medium py-2">
+              Card title
+            </h5>
+            <p className="mb-2">
+              Some quick example text to build on the card title and make up the bulk of the cards content.
+            </p>
+            <a 
+              href="#"
+              className="bg-blue-600 hover:bg-blue-800 text-white px-3 py-2 rounded-md inline-block"
+            >
+              Go somewhere
+            </a>
+          </div>
+        </div>
       </div>
     </>
   )
