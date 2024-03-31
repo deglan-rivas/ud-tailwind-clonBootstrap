@@ -23,7 +23,7 @@ const FlexBox = () => {
             Menu
           </div>
         </div> */}
-      <div className={`bg-gray-200 w-96 h-[700px] p-8 flex flex-col `}>
+      <div className={`bg-gray-200 w-96 h-[900px] p-8 flex flex-col mb-4`}>
         <div className="bg-green-500 p-4 flex flex-row justify-between items-center">
           <div className="h-12 w-12 py-2 px-1 bg-gray-200 flex items-center justify-center">
             Icono
@@ -177,7 +177,15 @@ const FlexBox = () => {
           <div className="bg-red-500 flex-1 text-white flex justify-center items-center p-2">4</div>
           <div className="bg-red-400 flex-1 text-white flex justify-center items-center p-2">{height}</div>
         </div>
+
       </div>
+        <img src="https://media.istockphoto.com/id/1503385646/es/foto/retrato-divertido-y-feliz-perro-cachorro-shiba-inu-asom%C3%A1ndose-detr%C3%A1s-de-una-pancarta-azul.jpg?s=2048x2048&w=is&k=20&c=6k3cznVpHvgExHuvvIvM5Ge-kD5G8-GWmaivBPKnU10=" alt="test" 
+        className="w-24 min-h-56 inline-block" />
+        <img src="https://media.istockphoto.com/id/1503385646/es/foto/retrato-divertido-y-feliz-perro-cachorro-shiba-inu-asom%C3%A1ndose-detr%C3%A1s-de-una-pancarta-azul.jpg?s=2048x2048&w=is&k=20&c=6k3cznVpHvgExHuvvIvM5Ge-kD5G8-GWmaivBPKnU10=" alt="test" 
+        className="w-24 max-h-12 " />
+        <a href="#" className="">Ga</a>
+        <span>Ga</span>
+        <p className="">Ga</p>
     </>
   )
 }
