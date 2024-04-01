@@ -39,6 +39,38 @@ const Grid6 = () => {
         <div className="bg-pink-400 col-span-1">6</div>
         <div className="bg-pink-400 col-span-1">6</div>
       </div>
+
+      <p>el grid-flow col o row indica la dirección así como con el flex. También hay -dense que fuerza al algoritmo a rellenar los espacios vacíos</p>
+      <div className="bg-white h-[700px] grid grid-cols-6 grid-rows-12 grid-flow-col gap-2 mb-4">
+        <div className="bg-pink-400 row-span-12">1</div>
+        <div className="bg-pink-400 row-span-6">2</div>
+        <div className="bg-pink-400 row-span-6">2</div>
+        <div className="bg-pink-400 row-span-4">3</div>
+        <div className="bg-pink-400 row-span-4">3</div>
+        <div className="bg-pink-400 row-span-4">3</div>
+        <div className="bg-pink-400 row-span-3">4</div>
+        <div className="bg-pink-400 row-span-3">4</div>
+        <div className="bg-pink-400 row-span-3">4</div>
+        <div className="bg-pink-400 row-span-3">4</div>
+        <div className="bg-pink-400 row-span-2">5</div>
+        <div className="bg-pink-400 row-span-2">5</div>
+        <div className="bg-pink-400 row-span-2">5</div>
+        <div className="bg-pink-400 row-span-2">5</div>
+        <div className="bg-pink-400 row-span-2">5</div>
+        <div className="bg-pink-400 row-span-2">5</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+        <div className="bg-pink-400 row-span-1">6</div>
+      </div>
     </div>
   )
 }
