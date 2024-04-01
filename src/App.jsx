@@ -6,7 +6,7 @@ import S6 from "./HOC - topics/s6-personalLanding"
 function App() {
   return(
     <>
-      <h1 className="mb-4">hola mundo</h1>
+      {/* <h1 className="mb-4">hola mundo</h1> */}
       {/* <S1/> */}
       {/* <S4/> */}
       {/* <S5/> */}
