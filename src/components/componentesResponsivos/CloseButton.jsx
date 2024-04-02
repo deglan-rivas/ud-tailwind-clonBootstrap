@@ -12,6 +12,8 @@ const CloseButton = () => {
         <button disabled className="text-gray-400">
           <CloseIcon/>
         </button>
+        <button className="focus:ring-4 ring-red-400 ring-offset-4">Gaaa</button>
+        <button className="ring-offset-4 ring-1 ring-red-400 focus:ring-inset focus:ring-blue-400 hover:ring-offset-green-400">Raaa</button>
       </div>
     </>
   )
