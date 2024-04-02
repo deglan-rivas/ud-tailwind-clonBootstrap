@@ -5,6 +5,7 @@ import S4 from "./HOC - topics/s4-flex"
 import S5 from "./HOC - topics/s5-grid"
 import S6 from "./HOC - topics/s6-personalLanding"
 import S7 from "./HOC - topics/s7-componentesResponsivos"
+import S8 from "./HOC - topics/s8-twElements"
 
 function App() {
   return(
@@ -16,7 +17,8 @@ function App() {
       {/* <S4/> */}
       {/* <S5/> */}
       {/* <S6/> */}
-      <S7/>
+      {/* <S7/> */}
+      <S8/>
     </>
   )
 }
