@@ -70,6 +70,7 @@ const PL2 = () => {
           <li>eventualmente cuando vi el autocompletado de h-900 entendí que era mi tailwind.config.json que definí en algún momento que me estaba jodiendo todos los h, parece que sobreescribe y no agrega, o sea, solo podía usar el h-900 y ninguno otro como h-full o h-1/3 </li>
           <li>ya estaba buscando buscando en github problemas con vite react y waildin height xD no funcaba el basis-2/3 tampoco y ahora sí, qué loco, parece que indirectamente también usa el property h, documentar en vscode, por ahora no en notion</li>
           <li>incluso lo probamos con atom + tailwind CDN y ahí sí funcaba xD había que modificar, guardar y darle ctrl R o F5 para recargar la página en esta ruta file:///home/deglan/Escritorio/practicas_random/delete_mix/index.html xdddd</li>
+          <li>usar hypercolor.dev para tener los gradients al toque y en tailwind encima: https://hypercolor.dev/</li>
         </ul>
       </div>
     </>
