@@ -2,6 +2,7 @@ import CloseButton from "../components/componentesResponsivos/CloseButton"
 import ListGroup from "../components/componentesResponsivos/ListGroup"
 import ListGroup2 from "../components/componentesResponsivos/ListGroup2"
 import NavBar from "../components/componentesResponsivos/Navbar"
+import NavBar2 from "../components/componentesResponsivos/Navbar2"
 
 const S7 = () => {
   return (
@@ -9,7 +10,8 @@ const S7 = () => {
       {/* <CloseButton/> */}
       {/* <ListGroup/> */}
       {/* <ListGroup2/> */}
-      <NavBar/>
+      {/* <NavBar/s> */}
+      <NavBar2/>
     </>
   )
 }
