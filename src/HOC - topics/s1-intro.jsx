@@ -1,17 +1,15 @@
-import Alert from "../components/Alert";
-import Badge from "../components/Badge";
-import Button from "../components/Button";
-import ButtonGroup from "../components/ButtonGroup";
-import Card from "../components/Cards";
+import Alert from "../components/intro/Alert";
+import Badge from "../components/intro/Badge";
+import Button from "../components/intro/Button";
+import ButtonGroup from "../components/componentesPersonalizados/ButtonGroup";
+import Card from "../components/cardsImagenes.jsx/Cards";
 
 const S1 = () => {
   return (
     <>
       {/* <Alert /> */}
       {/* <Badge/> */}
-      {/* <Button/> */}
-      {/* <ButtonGroup/> */}
-      <Card/>
+      <Button/>
     </>
   )
 }
