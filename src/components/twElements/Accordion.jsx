@@ -19,9 +19,9 @@ const Accordion = () => {
         data-twe-target="#collapseOne"
         aria-expanded="true"
         aria-controls="collapseOne">
-        Accordion Item #1
+        Accordion Item #11
         <span
-          className="-me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6">
+          className="text-sky-500 -me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -69,7 +69,7 @@ const Accordion = () => {
         aria-controls="collapseTwo">
         Accordion Item #2
         <span
-          className="-me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6 ">
+          className="text-sky-500 -me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -115,7 +115,7 @@ const Accordion = () => {
         aria-controls="collapseThree">
         Accordion Item #3
         <span
-          className="-me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6">
+          className="text-sky-500 -me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
