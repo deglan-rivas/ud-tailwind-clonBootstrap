@@ -7,6 +7,7 @@ import Collapse2 from "../components/twElements/Collapse2";
 import DropdownBasicExample from "../components/twElements/Dropdown";
 import Dropdown2 from "../components/twElements/Dropdown2";
 import ModalBasicExample from "../components/twElements/Modals";
+import Modal2 from "../components/twElements/Modals2";
 import Offcanvas2 from "../components/twElements/Offcanvas";
 
 const S8 = () => {
@@ -19,8 +20,9 @@ const S8 = () => {
       {/* <CollapseBasicExample/> */}
       {/* <Collapse2/> */}
       {/* <DropdownBasicExample/> */}
-      <Dropdown2/>
+      {/* <Dropdown2/> */}
       {/* <ModalBasicExample/> */}
+      <Modal2/>
       {/* <Offcanvas2/> */}
     </>
   )
