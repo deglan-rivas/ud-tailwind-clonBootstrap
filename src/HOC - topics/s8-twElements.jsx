@@ -9,6 +9,7 @@ import Dropdown2 from "../components/twElements/Dropdown2";
 import ModalBasicExample from "../components/twElements/Modals";
 import Modal2 from "../components/twElements/Modals2";
 import Offcanvas2 from "../components/twElements/Offcanvas";
+import ProgressBar from "../components/twElements/PRogressBar";
 import PlaceholderBasicExample from "../components/twElements/Placeholder";
 import PopoverBasicExample from "../components/twElements/Popover";
 
@@ -27,7 +28,8 @@ const S8 = () => {
       {/* <Modal2/> */}
       {/* <Offcanvas2/> */}
       {/* <PlaceholderBasicExample/> */}
-      <PopoverBasicExample/>
+      {/* <PopoverBasicExample/> */}
+      <ProgressBar/>
     </>
   )
 }
