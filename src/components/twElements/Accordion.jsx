@@ -163,6 +163,8 @@ const Accordion = () => {
         <p>la mayoría sí se mostraba menos el de carousel, me imagino que por el peso del JS. Además, el modal se veía pero no funcionaba. Supuse que era por lo mismo que pasaba con el carousel, así que moví su js del Carousel.jsx al App o main.jsx y funcó, quizás el del carousel es considerablemente más pesado, pues ni así funcionó xd</p>
         <p>eventualmente me di cuenta que hay una versión para react, pues hay que recordar que estoy usando react sobre vite, fácil por eso cuando le doy ctrl R al chrome no funca, pero con ctrl s al file .jsx sí funca. Debe ser eso, así que reinstalar tw-elements para react y comenzar denuevo con el carousel</p>
         <p>ptmr con react no había problema con el carousel, el único detalle era que mi pantalla era muy chica y había una media query que ocultaba el texto :'v</p>
+        <p>con el ! podemos forzar valores tal cual como si se usara el !important en css puro, estaría bueno aprender a inyectar css puro como si usara el sx en materialUI o style en html puro, pues en tailwind depende de la clase, ejm: bg-[url()] para el background. Además, conviene aprender a usar ts para poder acceder al código tailwind fuente de los node_modules, por ahora con ctrl click solo puede ir a las definiciones pero si quiera modificar TEModalHeader a veces no basta con agregar un className, el ! funca, pero abusar es riesgoso sobretodo cuando tiene elementos hijos xd</p>
+        <p>no hay el offcanvas o drawer para react, pero sí para el standard html csmr, go a flowbite que sí lo tiene o aprender a personalizar daisyUI es otra opción, flowbite, shadcn, radix ui</p>
       </div> */}
     </>
   )

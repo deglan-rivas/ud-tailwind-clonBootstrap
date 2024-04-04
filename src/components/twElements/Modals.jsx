@@ -26,9 +26,9 @@ export default function ModalBasicExample() {
 
       {/* <!-- Modal --> */}
       <TEModal show={showModal} setShow={setShowModal}>
-        <TEModalDialog>
-          <TEModalContent className="">
-            <TEModalHeader className="py-5 bg-green-300 uppercase flex ">
+        <TEModalDialog className="mt-0">
+          <TEModalContent className="mt-0">
+            <TEModalHeader className="py-5 bg-green-300 uppercase flex">
               {/* <!--Modal title--> */}
               <h5 className="text-xl font-medium leading-normal text-neutral-800 dark:text-neutral-200 flex-1 flex justify-center">
                 Modal title
