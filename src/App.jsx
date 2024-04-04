@@ -7,6 +7,7 @@ import S6 from "./HOC - topics/s6-personalLanding"
 import S7 from "./HOC - topics/s7-componentesResponsivos"
 import S8 from "./HOC - topics/s8-twElements"
 
+
 function App() {
   return(
     <>

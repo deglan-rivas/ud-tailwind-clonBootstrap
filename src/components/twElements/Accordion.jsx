@@ -160,6 +160,9 @@ const Accordion = () => {
         <p>lo primero para entender un tw-elemento clonado de bootstrap es darle una leída rápida a la documentación y al jsx o html del elemento para intentar entender las clases y atributos asociadas al evento, en este caso: clickear para mostrar contenido interno</p>
         <p>lo siguiente es observar el código desde el navegador con un pnpm dev y F12 para abrir las dev tools, ahí se debe ver las clases que cambian con la interactividad del evento de js, en este caso: un click de js cambia la clase -show en hijo, -collapsed en padre y un !visible hidden xD</p>
         <p>ahora solo queda ver las clases asociadas a ese evento, en este caso full pseudoelemento del :not data-collapse-collapsed</p>
+        <p>la mayoría sí se mostraba menos el de carousel, me imagino que por el peso del JS. Además, el modal se veía pero no funcionaba. Supuse que era por lo mismo que pasaba con el carousel, así que moví su js del Carousel.jsx al App o main.jsx y funcó, quizás el del carousel es considerablemente más pesado, pues ni así funcionó xd</p>
+        <p>eventualmente me di cuenta que hay una versión para react, pues hay que recordar que estoy usando react sobre vite, fácil por eso cuando le doy ctrl R al chrome no funca, pero con ctrl s al file .jsx sí funca. Debe ser eso, así que reinstalar tw-elements para react y comenzar denuevo con el carousel</p>
+        <p>ptmr con react no había problema con el carousel, el único detalle era que mi pantalla era muy chica y había una media query que ocultaba el texto :'v</p>
       </div> */}
     </>
   )
