@@ -13,6 +13,7 @@ import ProgressBar from "../components/twElements/PRogressBar";
 import PlaceholderBasicExample from "../components/twElements/Placeholder";
 import PopoverBasicExample from "../components/twElements/Popover";
 import ScrollSpy from "../components/twElements/ScrollSpy";
+import Spinner from "../components/twElements/Spinner";
 
 const S8 = () => {
   return (
@@ -31,7 +32,8 @@ const S8 = () => {
       {/* <PlaceholderBasicExample/> */}
       {/* <PopoverBasicExample/> */}
       {/* <ProgressBar/> */}
-      <ScrollSpy/>
+      {/* <ScrollSpy/> */}
+      <Spinner/>
     </>
   )
 }
