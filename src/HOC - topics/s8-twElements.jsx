@@ -9,6 +9,7 @@ import Dropdown2 from "../components/twElements/Dropdown2";
 import ModalBasicExample from "../components/twElements/Modals";
 import Modal2 from "../components/twElements/Modals2";
 import Offcanvas2 from "../components/twElements/Offcanvas";
+import PlaceholderBasicExample from "../components/twElements/Placeholder";
 
 const S8 = () => {
   return (
@@ -22,8 +23,9 @@ const S8 = () => {
       {/* <DropdownBasicExample/> */}
       {/* <Dropdown2/> */}
       {/* <ModalBasicExample/> */}
-      <Modal2/>
+      {/* <Modal2/> */}
       {/* <Offcanvas2/> */}
+      <PlaceholderBasicExample/>
     </>
   )
 }
