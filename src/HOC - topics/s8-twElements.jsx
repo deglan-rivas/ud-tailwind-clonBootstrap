@@ -15,6 +15,7 @@ import PopoverBasicExample from "../components/twElements/Popover";
 import ScrollSpy from "../components/twElements/ScrollSpy";
 import Spinner from "../components/twElements/Spinner";
 import Toast from "../components/twElements/Toast";
+import Tooltip from "../components/twElements/Tooltip";
 
 const S8 = () => {
   return (
@@ -35,7 +36,8 @@ const S8 = () => {
       {/* <ProgressBar/> */}
       {/* <ScrollSpy/> */}
       {/* <Spinner/> */}
-      <Toast/>
+      {/* <Toast/> */}
+      <Tooltip/>
     </>
   )
 }
