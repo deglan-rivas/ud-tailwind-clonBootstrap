@@ -165,6 +165,7 @@ const Accordion = () => {
         <p>ptmr con react no había problema con el carousel, el único detalle era que mi pantalla era muy chica y había una media query que ocultaba el texto :'v</p>
         <p>con el ! podemos forzar valores tal cual como si se usara el !important en css puro, estaría bueno aprender a inyectar css puro como si usara el sx en materialUI o style en html puro, pues en tailwind depende de la clase, ejm: bg-[url()] para el background. Además, conviene aprender a usar ts para poder acceder al código tailwind fuente de los node_modules, por ahora con ctrl click solo puede ir a las definiciones pero si quiera modificar TEModalHeader a veces no basta con agregar un className, el ! funca, pero abusar es riesgoso sobretodo cuando tiene elementos hijos xd</p>
         <p>no hay el offcanvas o drawer para react, pero sí para el standard html csmr, go a flowbite que sí lo tiene o aprender a personalizar daisyUI es otra opción, flowbite, shadcn, radix ui</p>
+        <p>\S*shadow\S*[^" ]</p>
       </div> */}
     </>
   )
