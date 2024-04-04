@@ -3,6 +3,7 @@ import Accordion2 from "../components/twElements/Accordion2";
 import Carrusel from "../components/twElements/Carousel";
 import CollapseBasicExample from "../components/twElements/Collapse";
 import DropdownBasicExample from "../components/twElements/Dropdown";
+import ModalBasicExample from "../components/twElements/Modals";
 
 const S8 = () => {
   return (
@@ -11,7 +12,8 @@ const S8 = () => {
       {/* <Accordion2/> */}
       {/* <Carrusel/> */}
       {/* <CollapseBasicExample/> */}
-      <DropdownBasicExample/>
+      {/* <DropdownBasicExample/> */}
+      <ModalBasicExample/>
     </>
   )
 }
