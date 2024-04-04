@@ -5,6 +5,7 @@ import Carrusel2 from "../components/twElements/Carousel2";
 import CollapseBasicExample from "../components/twElements/Collapse";
 import Collapse2 from "../components/twElements/Collapse2";
 import DropdownBasicExample from "../components/twElements/Dropdown";
+import Dropdown2 from "../components/twElements/Dropdown2";
 import ModalBasicExample from "../components/twElements/Modals";
 import Offcanvas2 from "../components/twElements/Offcanvas";
 
@@ -16,8 +17,9 @@ const S8 = () => {
       {/* <Carrusel/> */}
       {/* <Carrusel2/> */}
       {/* <CollapseBasicExample/> */}
-      <Collapse2/>
+      {/* <Collapse2/> */}
       {/* <DropdownBasicExample/> */}
+      <Dropdown2/>
       {/* <ModalBasicExample/> */}
       {/* <Offcanvas2/> */}
     </>
