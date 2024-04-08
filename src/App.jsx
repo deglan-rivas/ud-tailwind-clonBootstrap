@@ -1,6 +1,7 @@
 import S2 from "./HOC - topics/S2-componentesPersonalizados"
 import S3 from "./HOC - topics/S3-cardsImagenes"
 import S1 from "./HOC - topics/s1-intro"
+import S10 from "./HOC - topics/s10-tailwindDocs"
 import S4 from "./HOC - topics/s4-flex"
 import S5 from "./HOC - topics/s5-grid"
 import S6 from "./HOC - topics/s6-personalLanding"
@@ -20,6 +21,7 @@ function App() {
       {/* <S6/> */}
       {/* <S7/> */}
       {/* <S8/> */}
+      <S10/>
     </>
   )
 }
