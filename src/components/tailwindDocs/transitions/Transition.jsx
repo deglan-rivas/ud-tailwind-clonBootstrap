@@ -11,9 +11,28 @@ const Transition = () => {
         Hover me sin bg-image
       </div>
       <div className="px-2 py-1 bg-yellow-500 w-1/2 text-center group">
-        <div className="border-b-2 border-transparent inline-block group-hover:border-red-500 transition-colors delay-500 duration-[3000ms]">
+        <div className="border-b-2 border-transparent inline-block group-hover:border-red-500 transition-[border-color] delay-500 duration-[3000ms] ease-in-out">
         {/* <div className="border-b-2 border-transparent inline-block group-hover:border-red-500 transition-colors delay-500 duration-1000" style={{transitionProperty: 'border'}}> */}
           Hover me with underline
+        </div>
+      </div>
+      <div className="px-2 py-1 bg-yellow-500 w-1/2 group h-12">
+        <div className="inline-block bg-blue-400 text-white px-2 py-1 opacity-0 group-hover:opacity-100 transition delay-500 duration-[3000ms] ease-in-out ">
+          Hover yellow box to show another button
+        </div>
+        <span>ga</span>
+      </div>
+      <div className="px-2 py-1 bg-yellow-500 w-1/2 group h-12 relative">
+        <div className="inline-block bg-blue-400 text-white px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity delay-500 duration-[3000ms] ease-in-out absolute top-full">
+          Hover yellow box to show another button
+        </div>
+        <span>ga</span>
+      </div>
+      <p>it will appear over me</p>
+      <div className="bg-green-400 group">
+        <p className="inline-block">ga</p>
+        <div className="h-12 group-hover:h-24 group-hover:bg-red-400 transition-[background-color, height] delay-500 ease-in-out duration-[500ms]">
+          ra
         </div>
       </div>
     </div>
