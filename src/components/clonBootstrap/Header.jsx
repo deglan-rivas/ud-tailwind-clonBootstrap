@@ -1,6 +1,10 @@
 const Header = () => {
   return (
-    <h1>Header</h1>
+    <header>
+      <div>
+        Docs Examples Icons Themes Blog
+      </div>
+    </header>
   )
 }
 

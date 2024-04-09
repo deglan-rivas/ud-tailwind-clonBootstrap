@@ -1,6 +1,6 @@
 const Components = () => {
   return (
-    <h1>Components</h1>
+    <h1>Components, meet the Utility API</h1>
   )
 }
 

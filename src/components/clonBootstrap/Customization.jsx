@@ -1,6 +1,6 @@
 const Customization = () => {
   return (
-    <h1>Customization</h1>
+    <h1>Customize everything with Sass</h1>
   )
 }
 

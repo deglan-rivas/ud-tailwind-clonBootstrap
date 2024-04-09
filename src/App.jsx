@@ -7,6 +7,7 @@ import S5 from "./HOC - topics/s5-grid"
 import S6 from "./HOC - topics/s6-personalLanding"
 import S7 from "./HOC - topics/s7-componentesResponsivos"
 import S8 from "./HOC - topics/s8-twElements"
+import Bootstrap from "./components/clonBootstrap"
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/* <S6/> */}
       {/* <S7/> */}
       {/* <S8/> */}
-      <S10/>
+      {/* <S10/> */}
+      <Bootstrap/>
     </>
   )
 }

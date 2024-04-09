@@ -1,6 +1,6 @@
 const Themes = () => {
   return (
-    <h1>Themes</h1>
+    <h1>Make it yours with official Bootstrap Themes</h1>
   )
 }
 

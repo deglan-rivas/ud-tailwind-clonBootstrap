@@ -1,6 +1,6 @@
 const GetStarted = () => {
   return (
-    <h1>GetStarted</h1>
+    <h1>Get started any way what you want</h1>
   )
 }
 

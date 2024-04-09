@@ -1,6 +1,6 @@
 const Personalization = () => {
   return (
-    <h1>Personalization</h1>
+    <h1>Personalize it with Bootstrap Icons</h1>
   )
 }
 

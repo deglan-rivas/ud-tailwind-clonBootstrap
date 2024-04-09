@@ -1,6 +1,6 @@
 const JQuery = () => {
   return (
-    <h1>JQuery</h1>
+    <h1>Powerful JavaScript plugins without jQuery</h1>
   )
 }
 
