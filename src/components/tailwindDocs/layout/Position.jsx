@@ -1,6 +1,8 @@
 /**
  * buenas explicaciones de gotazu dev y jonyl, keyquotes también y fue más completo pero vendió humo con padre relative xd fixed es para que se quede fixed con el scroll y sticky es un fixed, pero cuando no comienza desde el borde xd
  * 
+ * los object fit position son similares al bg-image iguales practicamente xd, 
+ * el overflow tiene auto por default, hidden para ocultar excesos y scroll en alguna direción para siempre mostrar la scrollbar
  */
 
 const Position = () => {
