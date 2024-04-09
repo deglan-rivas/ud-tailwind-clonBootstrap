@@ -13,14 +13,16 @@ const Bootstrap = () => {
   return (
     <>
       <Header/>
-      <Main/>
-      <GetStarted/>
-      <Customization/>
-      <Building/>
-      <Components/>
-      <JQuery/>
-      <Personalization/>
-      <Themes/>
+      <div className="bg-[#202529]/95 text-white">
+        <Main/>
+        <GetStarted/>
+        <Customization/>
+        <Building/>
+        <Components/>
+        <JQuery/>
+        <Personalization/>
+        <Themes/>
+      </div>
       <Footer/>
     </>
   )
