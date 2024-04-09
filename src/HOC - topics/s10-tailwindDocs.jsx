@@ -1,3 +1,4 @@
+import Effects from "../components/tailwindDocs/effects/Effects"
 import Position from "../components/tailwindDocs/layout/Position"
 import Position2 from "../components/tailwindDocs/layout/Position2"
 import Position3 from "../components/tailwindDocs/layout/Position3"
@@ -12,7 +13,8 @@ const S10 = () => {
     // <Position3/>
     // <Svg/>
     // <Transform/>
-    <Transition/>
+    // <Transition/>
+    <Effects/>
   )
 }
 
