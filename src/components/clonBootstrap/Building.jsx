@@ -1,6 +1,6 @@
 const Building = () => {
   return (
-    <section className="container mx-auto mb-24 pb-12">
+    <section className="container mx-auto mb-12 pb-12">
       <div className="w-8/12 mb-12">
         <div className="bg-red-800/15 p-4 inline-block rounded-2xl mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-braces text-red-400 w-10 h-10" viewBox="0 0 16 16">
@@ -20,9 +20,9 @@ const Building = () => {
       </div>
 
       <div className="grid grid-cols-2 gap-12">
-        <div>
-          <h3 className="text-3xl mb-2 font-semibold">Include all of Bootstrap's Sass</h3>
-          <p className="mb-4">Import one stylesheet and you're off to the races with every feature of our CSS.</p>
+        <div className="mb-4">
+          <h3 className="text-3xl mb-2 font-semibold">Using CSS variables</h3>
+          <p className="mb-4">Use any of our <a href="#" className="text-blue-400 underline hover:brightness-125">global :root variables</a> to write new styles. CSS variables use the <code className="text-red-400 text-sm">var(--bs-variableName)</code> syntax and can be inherited by children elements.</p>
           <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
             <div>
               <span className="select-none text-gray-500">$</span>
@@ -33,11 +33,10 @@ const Building = () => {
               <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
             </svg>
           </div>
-          <p className="mb-4">Learn more about our <a href="#" className="text-blue-400 underline hover:brightness-125">global Sass options</a>.</p>
         </div>
-        <div>
-          <h3 className="text-3xl mb-2 font-semibold">Include what you need</h3>
-            <p className="mb-4">The easiest way to customize Bootstrap—include only the CSS you need.</p>
+        <div className="mb-4">
+          <h3 className="text-3xl mb-2 font-semibold">Customizing via CSS variables</h3>
+            <p className="mb-4">Override global, component, or utility class variables to customize Bootstrap just how you like. No need to redeclare each rule, just a new variable value.</p>
             <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
               <div>
                 <span className="select-none text-gray-500">$</span>
@@ -48,7 +47,6 @@ const Building = () => {
                 <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
               </svg>
             </div>
-            <p className="mb-4">Learn more about <a href="#" className="text-blue-400 underline hover:brightness-125">using Bootstrap with Sass</a>.</p>
         </div>
       </div>
     </section>

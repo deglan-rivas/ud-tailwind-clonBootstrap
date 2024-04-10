@@ -1,6 +1,6 @@
 const Customization = () => {
   return (
-    <section className="container mx-auto mb-24 pb-12">
+    <section className="container mx-auto mb-12 pb-12">
       <div className="w-7/12 mb-12">
         <div className="bg-blue-800/15 p-4 inline-block rounded-2xl mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="text-blue-700  bi bi-signpost-split w-10 h-10" viewBox="0 0 16 16">
