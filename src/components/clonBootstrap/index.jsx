@@ -14,6 +14,7 @@ const Bootstrap = () => {
     <>
       <Header/>
       <div className="bg-[#202529]/95 text-white">
+      {/* <div className="bg-black/85 text-white"> */}
         <Main/>
         <GetStarted/>
         <Customization/>
@@ -29,3 +30,7 @@ const Bootstrap = () => {
 }
 
 export default Bootstrap
+
+/**
+ * inline-flex puede ser buena opción para que el flex no tomo todo el espacio al ser un elemento block
+ */

@@ -9,13 +9,13 @@ const Main = () => {
         </svg>
       </button>
       <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="bootstrap-logo.png" className="h-40 py-4"/>
-      <h2 className="font-bold text-6xl w-3/4 text-center">Build fast, responsive sites with Boostrap</h2>
+      <h1 className="font-bold text-6xl w-3/4 text-center">Build fast, responsive sites with Boostrap</h1>
       <p className="text-gray-400 text-center w-3/5 text-xl py-4">Powerful, extensible, and feature-packed frontend toolkit. :Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
       <div className="flex gap-3 items-center">
         <div className="flex items-start gap-4 border bg-gray-700 border-gray-600 text-gray-300 px-4 py-4 rounded-md">
           <span className="select-none">$</span>
           <code  className="">npm i bootstrap@5.3.3</code>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-5 h-5 " viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-5 h-6 " viewBox="0 0 16 16">
             <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
             <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
           </svg>
