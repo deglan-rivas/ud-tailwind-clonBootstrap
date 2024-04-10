@@ -97,7 +97,7 @@ const GetStarted = () => {
       </div>
 
       <div className="mt-8 text-center">
-          <h3 className="text-xl font-semibold mb-2">
+          <h3 className="text-2xl font-semibold mb-2">
             Read our getting started guides
           </h3>
           <p className="mb-4">
