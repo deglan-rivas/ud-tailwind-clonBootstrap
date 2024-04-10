@@ -1,6 +1,6 @@
 const Personalization = () => {
   return (
-    <section className="container mx-auto pb-12 mb-12 grid grid-cols-2">
+    <section className="container mx-auto pb-12 mb-12 grid grid-cols-2 gap-12">
     <div className="col-span-1">
       <div className="bg-emerald-600/35 text-emerald-300 p-4 inline-block rounded-2xl mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" focusable="false" viewBox="0 0 16 16">

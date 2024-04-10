@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-black/75 py-12 text-gray-300">
+    <footer className="bg-black/25 py-12 text-gray-300">
       <div className="grid grid-cols-12 py-12 mb-4 container mx-auto">
         <div className="col-span-3 text-sm">
           <div className="flex items-center mb-2 gap-2 text-white">
@@ -36,7 +36,7 @@ const Footer = () => {
           <a href="#" className="hover:text-blue-400 hover:underline block mb-2">Vite</a>
         </div>
         <div className="col-span-2 text-white">
-          <h3 className="mb-2 text-xl font-[600]] text-gray-400">Projects</h3>
+          <h3 className="mb-2 text-xl font-[600] text-gray-400">Projects</h3>
           <a href="#" className="hover:text-blue-400 hover:underline block mb-2">Bootstrap 5</a>
           <a href="#" className="hover:text-blue-400 hover:underline block mb-2">Bootstrap 4</a>
           <a href="#" className="hover:text-blue-400 hover:underline block mb-2">Icons</a>

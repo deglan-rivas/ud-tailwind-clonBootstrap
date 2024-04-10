@@ -23,8 +23,8 @@ const Bootstrap = () => {
         <JQuery/>
         <Personalization/>
         <Themes/>
+        <Footer/>
       </div>
-      <Footer/>
     </>
   )
 }
