@@ -20,10 +20,13 @@ const Customization = () => {
       </div>
 
       <div className="grid grid-cols-2 gap-12">
+        <div>
 
+        </div>
+        <div>
+          
+        </div>
       </div>
-
-
     </section>
   )
 }
