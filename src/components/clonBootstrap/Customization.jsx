@@ -1,9 +1,9 @@
 const Customization = () => {
   return (
-    <section className="container mx-auto mb-12">
-      <div className="w-7/12">
-        <div className="bg-blue-600/35 p-4 inline-block rounded-2xl mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="text-blue-600  bi bi-signpost-split w-10 h-10" viewBox="0 0 16 16">
+    <section className="container mx-auto mb-24 pb-12">
+      <div className="w-7/12 mb-12">
+        <div className="bg-blue-800/15 p-4 inline-block rounded-2xl mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="text-blue-700  bi bi-signpost-split w-10 h-10" viewBox="0 0 16 16">
             <path d="M7 7V1.414a1 1 0 0 1 2 0V2h5a1 1 0 0 1 .8.4l.975 1.3a.5.5 0 0 1 0 .6L14.8 5.6a1 1 0 0 1-.8.4H9v10H7v-5H2a1 1 0 0 1-.8-.4L.225 9.3a.5.5 0 0 1 0-.6L1.2 7.4A1 1 0 0 1 2 7zm1 3V8H2l-.75 1L2 10zm0-5h6l.75-1L14 3H8z"/>
           </svg>
         </div>
@@ -21,10 +21,34 @@ const Customization = () => {
 
       <div className="grid grid-cols-2 gap-12">
         <div>
-
+          <h3 className="text-3xl mb-2 font-semibold">Include all of Bootstrap's Sass</h3>
+          <p className="mb-4">Import one stylesheet and you're off to the races with every feature of our CSS.</p>
+          <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
+            <div>
+              <span className="select-none text-gray-500">$</span>
+              <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
+              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+            </svg>
+          </div>
+          <p className="mb-4">Learn more about our <a href="#" className="text-blue-400 underline hover:brightness-125">global Sass options</a>.</p>
         </div>
         <div>
-          
+          <h3 className="text-3xl mb-2 font-semibold">Include what you need</h3>
+            <p className="mb-4">The easiest way to customize Bootstrap—include only the CSS you need.</p>
+            <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
+              <div>
+                <span className="select-none text-gray-500">$</span>
+                <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
+                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+              </svg>
+            </div>
+            <p className="mb-4">Learn more about <a href="#" className="text-blue-400 underline hover:brightness-125">using Bootstrap with Sass</a>.</p>
         </div>
       </div>
     </section>
