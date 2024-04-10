@@ -1,6 +1,6 @@
 const GetStarted = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mb-24">
       <div className="text-center flex flex-col justify-center items-center gap-4 mb-16">
         <div className="bg-violet-600/10 p-4 flex justify-center items-center rounded-2xl">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="text-violet-500 opacity-100 bi bi-code w-10 h-10" viewBox="0 0 16 16">
@@ -95,6 +95,37 @@ const GetStarted = () => {
           </div>
         </div>
       </div>
+
+      <div className="mt-8 text-center">
+          <h3 className="text-xl font-semibold mb-2">
+            Read our getting started guides
+          </h3>
+          <p className="mb-4">
+            Get a jump on including Bootstrap's source files in a new project with our official guides.
+          </p>
+          <div className="flex justify-center gap-4">
+            <div>
+              <img src="https://getbootstrap.com/docs/5.3/assets/img/webpack.svg" alt="img_webpack" 
+                className="w-16 mb-2 hover:scale-110 transition-transform delay-100 ease-in-out duration-200"
+              />
+              <p>Webpack</p>
+            </div>
+
+            <div>
+              <img src="https://getbootstrap.com/docs/5.3/assets/img/parcel.png" alt="img_webpack" 
+                className="w-16 mb-2 hover:scale-110 transition-transform delay-100 ease-in-out duration-200"
+              />
+              <p>Parcel</p>
+            </div>
+
+            <div>
+              <img src="https://getbootstrap.com/docs/5.3/assets/img/vite.svg" alt="img_webpack" 
+                className="w-16 mb-2 hover:scale-110 transition-transform delay-100 ease-in-out duration-200"
+              />
+              <p>Vite</p>
+            </div>
+          </div>
+        </div>
     </div>
   )
 }
