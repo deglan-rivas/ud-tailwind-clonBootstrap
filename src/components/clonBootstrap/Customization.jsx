@@ -62,9 +62,9 @@ const Customization = () => {
           <p className="mb-4">Import one stylesheet and you're off to the races with every feature of our CSS.</p>
           
           <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
-            {/* <SyntaxHighlighter style={anOldHope}>
+            <SyntaxHighlighter style={anOldHope}>
               {code_all}
-            </SyntaxHighlighter> */}
+            </SyntaxHighlighter>
           </div>
           <p className="mb-4">Learn more about our <a href="#" className="text-blue-400 underline hover:brightness-125">global Sass options</a>.</p>
         </div>
@@ -73,9 +73,9 @@ const Customization = () => {
           <p className="mb-4">The easiest way to customize Bootstrap—include only the CSS you need.</p>
           
           <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
-            {/* <SyntaxHighlighter style={anOldHope}>
+            <SyntaxHighlighter style={anOldHope}>
               {code_needs}
-            </SyntaxHighlighter> */}
+            </SyntaxHighlighter>
           </div>
           <p className="mb-4">Learn more about <a href="#" className="text-blue-400 underline hover:brightness-125">using Bootstrap with Sass</a>.</p>
         </div>
