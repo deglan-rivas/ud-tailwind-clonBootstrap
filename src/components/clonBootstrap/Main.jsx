@@ -1,7 +1,7 @@
 const Main = () => {
   return(
     <main className=" py-10 mb-10 container mx-auto flex flex-col justify-center items-center">
-      <button className="bg-yellow-500 text-black rounded-full py-1 px-4 text-sm">
+      <button className="bg-yellow-300 text-black rounded-full py-1 px-4 text-sm">
         <span className="font-semibold">New! </span>
         Never-Ending Support for Bootstrap
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-arrow-right w-4 h-4 pl-1 inline-block" viewBox="0 0 16 16">
