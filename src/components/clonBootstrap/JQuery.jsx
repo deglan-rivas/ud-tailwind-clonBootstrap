@@ -39,16 +39,16 @@ const JQuery = () => {
           <h3 className="text-3xl mb-2 font-semibold">Data attribute API</h3>
           <p className="mb-4">Why write more JavaScript when you can write HTML? Nearly all of Bootstrap's JavaScript plugins feature a first-class data API, allowing you to use JavaScript just by adding <code className="text-red-400 text-sm">data</code> attributes.</p>
 
-          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
             <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
               {code_data}
             </SyntaxHighlighter>
-          </div> */}
-          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+          </div>
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
             <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
               {code_data}
             </SyntaxHighlighter>
-          </div> */}
+          </div>
 
           <p className="">
             Learn more about <a href="#" className="text-blue-400 underline hover:brightness-125">our JavaScript as modules</a> and <a href="#" className="text-blue-400 underline hover:brightness-125">using the programmatic API</a>.
