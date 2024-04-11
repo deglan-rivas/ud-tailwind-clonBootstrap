@@ -14,7 +14,7 @@ const Clipboard = ({content}) => {
       <Tooltip className="group">
         <TooltipTrigger>
           <button 
-            className="bg-transparent p-2 rounded-md group hover:bg-transparent/20"
+            className="bg-transparent px-2 py-2 rounded-md group hover:bg-transparent/20"
             onClick={() => {
               setCopied(true)
               navigator.clipboard.writeText(content)
