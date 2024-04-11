@@ -1,5 +1,6 @@
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { stackoverflowDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import Clipboard from './subcomponents/Clipboard';
 
 const JQuery = () => {
   const code_data = `
@@ -39,15 +40,21 @@ const JQuery = () => {
           <h3 className="text-3xl mb-2 font-semibold">Data attribute API</h3>
           <p className="mb-4">Why write more JavaScript when you can write HTML? Nearly all of Bootstrap's JavaScript plugins feature a first-class data API, allowing you to use JavaScript just by adding <code className="text-red-400 text-sm">data</code> attributes.</p>
 
-          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex justify-between bg-[#1c1c21]">
             <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
               {code_data}
             </SyntaxHighlighter>
+            <div className='flex items-center'>
+              <Clipboard content={code_data}/>
+            </div>
           </div>
-          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex justify-between bg-[#1c1c21]">
             <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
               {code_data}
             </SyntaxHighlighter>
+            <div className='flex items-center'>
+              <Clipboard content={code_data}/>
+            </div>
           </div>
 
           <p className="">
