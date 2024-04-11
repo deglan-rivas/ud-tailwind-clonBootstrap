@@ -1,4 +1,35 @@
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { anOldHope, stackoverflowDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
 const Components = () => {
+  const code_quickly = `
+  <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+    </li>
+  </ul>
+  `
+  const code_create = `
+  @import "bootstrap/scss/bootstrap";
+
+  $utilities: map-merge(
+    $utilities,
+    (
+      "cursor": (
+        property: cursor,
+        class: cursor,
+        responsive: true,
+        values: auto pointer grab,
+      )
+    )
+  );
+  `
   return (
     <section className="container mx-auto mb-12 pb-12">
       <div className="w-[780px] mb-12">
@@ -25,26 +56,18 @@ const Components = () => {
         <div className="mb-4">
           <h3 className="text-3xl mb-2 font-semibold">Quickly customize components</h3>
           <p className="mb-4">Apply any of our included utility classes to our components to customize their appearance, like the navigation example below. There are hundreds of classes available—from <a href="#" className="text-blue-400 underline hover:brightness-125">positioning</a> and <a href="#" className="text-blue-400 underline hover:brightness-125">sizing</a> to <a href="#" className="text-blue-400 underline hover:brightness-125">colors</a> and <a href="#" className="text-blue-400 underline hover:brightness-125">effects</a>. Mix them with CSS variable overrides for even more control.</p>
-          <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
-            <div>
-              <span className="select-none text-gray-500">$</span>
-              <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
-              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-            </svg>
-          </div>
-          <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
-            <div>
-              <span className="select-none text-gray-500">$</span>
-              <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
-              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-            </svg>
-          </div>
+
+          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+            <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
+            {code_quickly}
+            </SyntaxHighlighter>
+          </div> */}
+          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+            <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
+            {code_quickly}
+            </SyntaxHighlighter>
+          </div> */}
+
           <div className="group font-semibold text-blue-400 inline-flex items-center">
             <div className="group-hover:brightness-125 group-hover:cursor-pointer underline underline-offset-4">
               Explore customized components
@@ -56,25 +79,22 @@ const Components = () => {
         </div>
         <div className="mb-4">
           <h3 className="text-3xl mb-2 font-semibold">Create and extend utilities</h3>
-            <p className="mb-4">Use Bootstrap's utility API to modify any of our included utilities or create your own custom utilities for any project. Import Bootstrap first, then use Sass map functions to modify, add, or remove utilities.</p>
-            <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
-              <div>
-                <span className="select-none text-gray-500">$</span>
-                <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
-              </div>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
-                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-              </svg>
+          <p className="mb-4">Use Bootstrap's utility API to modify any of our included utilities or create your own custom utilities for any project. Import Bootstrap first, then use Sass map functions to modify, add, or remove utilities.</p>
+
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+            <SyntaxHighlighter language='scss' style={anOldHope}>
+            {code_create}
+            </SyntaxHighlighter>
+          </div>
+
+          <div className="group font-semibold text-blue-400 inline-flex items-center">
+            <div className="group-hover:brightness-125 group-hover:cursor-pointer underline underline-offset-4">
+              Explore the utility API
             </div>
-            <div className="group font-semibold text-blue-400 inline-flex items-center">
-              <div className="group-hover:brightness-125 group-hover:cursor-pointer underline underline-offset-4">
-                Explore the utility API
-              </div>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-arrow-right inline-block w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" viewBox="0 0 16 16">
-                <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-              </svg>
-            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-arrow-right inline-block w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+          </div>
         </div>
       </div>
     </section>

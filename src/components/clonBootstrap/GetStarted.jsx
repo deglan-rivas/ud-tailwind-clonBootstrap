@@ -1,4 +1,15 @@
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { stackoverflowDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
 const GetStarted = () => {
+  const code_include_1 = `
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  `
+
+  const code_include_2 = `
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  `
+
   return (
     <div className="container mx-auto mb-24">
       <div className="text-center flex flex-col justify-center items-center gap-4 mb-16">
@@ -73,26 +84,17 @@ const GetStarted = () => {
             When you only need to include Bootstrap's compiled CSS or JS, you can use <span className="text-blue-400 underline">jsDelivr</span>. See it in action with our simple <span className="text-blue-400 underline">quick start</span>, or <span className="text-blue-400 underline">browse the examples</span> to jumpstart your next project. You can also choose to include Popper and our JS <span className="text-blue-400 underline">separately</span>.
           </p>
 
-          <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
-            <div>
-              <span className="select-none text-gray-500">$</span>
-              <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
-              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-            </svg>
-          </div>
-          <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
-            <div>
-              <span className="select-none text-gray-500">$</span>
-              <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
-              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-            </svg>
-          </div>
+          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+            <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
+              {code_include_1}
+            </SyntaxHighlighter>
+          </div> */}
+
+          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+            <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
+              {code_include_2}
+            </SyntaxHighlighter>
+          </div> */}
         </div>
       </div>
 

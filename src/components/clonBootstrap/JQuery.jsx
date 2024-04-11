@@ -1,4 +1,19 @@
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { stackoverflowDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
 const JQuery = () => {
+  const code_data = `
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu">
+      <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+      <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+      <li><button class="dropdown-item" type="button">Dropdown item</button></li>
+    </ul>
+  </div>
+  `
   return (
     <section className="container mx-auto mb-12 pb-12">
       <div className="w-[780px] mb-12">
@@ -23,26 +38,18 @@ const JQuery = () => {
         <div className="mb-4">
           <h3 className="text-3xl mb-2 font-semibold">Data attribute API</h3>
           <p className="mb-4">Why write more JavaScript when you can write HTML? Nearly all of Bootstrap's JavaScript plugins feature a first-class data API, allowing you to use JavaScript just by adding <code className="text-red-400 text-sm">data</code> attributes.</p>
-          <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
-            <div>
-              <span className="select-none text-gray-500">$</span>
-              <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
-              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-            </svg>
-          </div>
-          <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
-            <div>
-              <span className="select-none text-gray-500">$</span>
-              <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
-              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-            </svg>
-          </div>
+
+          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+            <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
+              {code_data}
+            </SyntaxHighlighter>
+          </div> */}
+          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+            <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
+              {code_data}
+            </SyntaxHighlighter>
+          </div> */}
+
           <p className="">
             Learn more about <a href="#" className="text-blue-400 underline hover:brightness-125">our JavaScript as modules</a> and <a href="#" className="text-blue-400 underline hover:brightness-125">using the programmatic API</a>.
           </p>

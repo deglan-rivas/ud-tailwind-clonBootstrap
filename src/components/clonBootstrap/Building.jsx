@@ -1,4 +1,33 @@
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { anOldHope, docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
 const Building = () => {
+  const code_using = `
+  .component {
+    color: var(--bs-gray-800);
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .25rem;
+  }
+  
+  .component-header {
+    color: var(--bs-purple);
+  }
+  `
+  const code_customizing = `
+  body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+  }
+  
+  .table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
+  }
+  `
+
   return (
     <section className="container mx-auto mb-12 pb-12">
       <div className="w-8/12 mb-12">
@@ -23,30 +52,22 @@ const Building = () => {
         <div className="mb-4">
           <h3 className="text-3xl mb-2 font-semibold">Using CSS variables</h3>
           <p className="mb-4">Use any of our <a href="#" className="text-blue-400 underline hover:brightness-125">global :root variables</a> to write new styles. CSS variables use the <code className="text-red-400 text-sm">var(--bs-variableName)</code> syntax and can be inherited by children elements.</p>
-          <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
-            <div>
-              <span className="select-none text-gray-500">$</span>
-              <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
-              <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-              <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-            </svg>
-          </div>
+          
+          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+              <SyntaxHighlighter style={anOldHope}>
+                {code_using}
+              </SyntaxHighlighter>
+          </div> */}
         </div>
         <div className="mb-4">
           <h3 className="text-3xl mb-2 font-semibold">Customizing via CSS variables</h3>
-            <p className="mb-4">Override global, component, or utility class variables to customize Bootstrap just how you like. No need to redeclare each rule, just a new variable value.</p>
-            <div className="flex justify-between border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
-              <div>
-                <span className="select-none text-gray-500">$</span>
-                <code  className="pl-2">gem install bootstrap -v 5.3.3</code>
-              </div>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-clipboard w-4 h-5 " viewBox="0 0 16 16">
-                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
-                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
-              </svg>
-            </div>
+          <p className="mb-4">Override global, component, or utility class variables to customize Bootstrap just how you like. No need to redeclare each rule, just a new variable value.</p>
+          
+          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+            <SyntaxHighlighter style={anOldHope}>
+              {code_customizing}
+            </SyntaxHighlighter>
+          </div> */}
         </div>
       </div>
     </section>
