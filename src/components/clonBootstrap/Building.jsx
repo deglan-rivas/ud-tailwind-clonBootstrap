@@ -1,5 +1,6 @@
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { anOldHope, docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import Clipboard from './subcomponents/Clipboard';
 
 const Building = () => {
   const code_using = `
@@ -53,20 +54,26 @@ const Building = () => {
           <h3 className="text-3xl mb-2 font-semibold">Using CSS variables</h3>
           <p className="mb-4">Use any of our <a href="#" className="text-blue-400 underline hover:brightness-125">global :root variables</a> to write new styles. CSS variables use the <code className="text-red-400 text-sm">var(--bs-variableName)</code> syntax and can be inherited by children elements.</p>
           
-          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
-              <SyntaxHighlighter style={anOldHope}>
-                {code_using}
-              </SyntaxHighlighter>
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex justify-between bg-[#1c1c21]">
+            <SyntaxHighlighter language='' style={anOldHope}>
+              {code_using}
+            </SyntaxHighlighter>
+            <div className='flex items-center'>
+              <Clipboard content={code_using}/>
+            </div>
           </div>
         </div>
         <div className="mb-4">
           <h3 className="text-3xl mb-2 font-semibold">Customizing via CSS variables</h3>
           <p className="mb-4">Override global, component, or utility class variables to customize Bootstrap just how you like. No need to redeclare each rule, just a new variable value.</p>
           
-          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
-            <SyntaxHighlighter style={anOldHope}>
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex justify-between bg-[#1c1c21]">
+            <SyntaxHighlighter language='' style={anOldHope}>
               {code_customizing}
             </SyntaxHighlighter>
+            <div className='flex items-center'>
+              <Clipboard content={code_customizing}/>
+            </div>
           </div>
         </div>
       </div>
