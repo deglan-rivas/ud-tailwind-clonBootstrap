@@ -84,17 +84,17 @@ const GetStarted = () => {
             When you only need to include Bootstrap's compiled CSS or JS, you can use <span className="text-blue-400 underline">jsDelivr</span>. See it in action with our simple <span className="text-blue-400 underline">quick start</span>, or <span className="text-blue-400 underline">browse the examples</span> to jumpstart your next project. You can also choose to include Popper and our JS <span className="text-blue-400 underline">separately</span>.
           </p>
 
-          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
             <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
               {code_include_1}
             </SyntaxHighlighter>
-          </div> */}
+          </div>
 
-          {/* <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600">
             <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
               {code_include_2}
             </SyntaxHighlighter>
-          </div> */}
+          </div>
         </div>
       </div>
 
