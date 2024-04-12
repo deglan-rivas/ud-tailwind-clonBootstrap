@@ -112,7 +112,7 @@ const Header = () => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          {/* <DropdownMenu>
+          <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <div className="pl-3 py-1 flex items-center space-x-2 group">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-4 h-4 bi bi-moon-stars-fill group-hover:brightness-200 group-hover:text-white cursor-pointer" viewBox="0 0 16 16">
@@ -147,7 +147,7 @@ const Header = () => {
                 </DropdownMenuRadioItem>
               </DropdownMenuRadioGroup>
             </DropdownMenuContent>
-          </DropdownMenu> */}
+          </DropdownMenu>
         </div>
       </div>
     </header>
