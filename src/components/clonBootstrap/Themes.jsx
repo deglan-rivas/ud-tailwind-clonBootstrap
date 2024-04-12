@@ -1,6 +1,6 @@
 const Themes = () => {
   return (
-    <section className="container mx-auto pb-12 mb-12 grid grid-cols-2 gap-12">
+    <section className="max-w-[1400px] w-full px-6 mx-auto pb-12 mb-12 grid grid-cols-2 gap-12">
     <div className="col-span-1">
       <div className="bg-violet-600/25 text-violet-700 p-4 inline-block rounded-2xl mb-4">
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-droplet-fill w-8 h-8" viewBox="0 0 16 16">

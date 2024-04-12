@@ -32,7 +32,7 @@ const Components = () => {
   );
   `
   return (
-    <section className="container mx-auto mb-12 pb-12">
+    <section className="max-w-[1400px] w-full px-6 mx-auto mb-12 pb-12">
       <div className="w-[780px] mb-12">
         <div className="flex items-center gap-2 mb-4">
           <div className="bg-red-800/15 p-4 inline-block rounded-2xl">
@@ -58,13 +58,70 @@ const Components = () => {
           <h3 className="text-3xl mb-2 font-semibold">Quickly customize components</h3>
           <p className="mb-4">Apply any of our included utility classes to our components to customize their appearance, like the navigation example below. There are hundreds of classes available—from <a href="#" className="text-blue-400 underline hover:brightness-125">positioning</a> and <a href="#" className="text-blue-400 underline hover:brightness-125">sizing</a> to <a href="#" className="text-blue-400 underline hover:brightness-125">colors</a> and <a href="#" className="text-blue-400 underline hover:brightness-125">effects</a>. Mix them with CSS variable overrides for even more control.</p>
 
-          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex justify-between bg-[#1c1c21]">
-            <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
-              {code_quickly}
-            </SyntaxHighlighter>
-            <div className='flex items-center'>
-              <Clipboard content={code_quickly}/>
+          <div className="text-base rounded-md mb-6 p-6 border border-gray-600 bg-transparent">
+            {/* <div className="mb-6 flex ">
+              <div className=' rounded-md overflow-hidden'>
+                <input type="radio" className="peer hidden" id="r-home" name="radio-1" defaultChecked="true"/>
+                <label
+                  className="text-blue-400 px-4 py-2 rounded-md hover:text-blue-300 peer-checked:bg-blue-600 peer-checked:text-blue-300 inline-block cursor-pointer"
+                  htmlFor="r-home"
+                >
+                  Home
+                </label>
+              </div>
+
+              <div>
+                <input type="radio" className="peer hidden" id="r-profile" name="radio-1"/>
+                <label
+                  className="text-blue-400 px-4 py-2 rounded-md hover:text-blue-300 peer-checked:bg-blue-600 peer-checked:text-blue-300 inline-block cursor-pointer"
+                  htmlFor="r-profile"
+                >
+                  Profile
+                </label>
+                </div>
+
+              <div>
+                <input type="radio" className="peer hidden" id="r-contact" name="radio-1"/>
+                <label
+                  className="text-blue-400 px-4 py-2 rounded-md hover:text-blue-300 peer-checked:bg-blue-600 peer-checked:text-blue-300 inline-block cursor-pointer"
+                  htmlFor="r-contact"
+                  >
+                  Contact
+                </label>
+              </div>
             </div>
+
+            <div className="mb-0 flex w-full bg-blue-600 rounded-full overflow-hidden items-center">
+              <div className='flex-1 p-1'>
+                <input type="radio" className="peer hidden" id="r-home2" name="radio-2" defaultChecked="true"/>
+                <label
+                  className="text-blue-400 px-4 py-2 hover:text-blue-300 peer-checked:bg-white peer-checked:text-blue-600 inline-block w-full text-center rounded-full cursor-pointer"
+                  htmlFor="r-home2"
+                  >
+                  Home
+                </label>
+              </div>
+              
+              <div className='flex-1 p-1'>
+                <input type="radio" className="peer hidden" id="r-profile2" name="radio-2"/>
+                <label
+                  className="text-blue-400 px-4 py-2 hover:text-blue-300 peer-checked:bg-white peer-checked:text-blue-600 inline-block w-full text-center rounded-full cursor-pointer"
+                  htmlFor="r-profile2"
+                >
+                  Profile
+                </label>
+                </div>
+
+              <div className='flex-1 p-1'>
+                <input type="radio" className="peer hidden" id="r-contact2" name="radio-2"/>
+                <label
+                  className="text-blue-400 px-4 py-2 hover:text-blue-300 peer-checked:bg-white peer-checked:text-blue-600 inline-block w-full text-center rounded-full cursor-pointer"
+                  htmlFor="r-contact2"
+                >
+                  Contact
+                </label>
+              </div>
+            </div> */}
           </div>
           <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex justify-between bg-[#1c1c21]">
             <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>

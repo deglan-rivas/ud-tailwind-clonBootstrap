@@ -15,7 +15,7 @@ const GetStarted = () => {
   `
 
   return (
-    <div className="container mx-auto mb-24">
+    <div className="max-w-[1400px] w-full px-6 mx-auto mb-24">
       <div className="text-center flex flex-col justify-center items-center gap-4 mb-16">
         <div className="bg-violet-600/10 p-4 flex justify-center items-center rounded-2xl">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="text-violet-500 opacity-100 bi bi-code w-10 h-10" viewBox="0 0 16 16">
@@ -41,10 +41,10 @@ const GetStarted = () => {
 
           <h3 className="font-bold text-2xl mb-2">Install via package manager</h3>
           <p className="mb-4">
-            Install Bootstrap's source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed installs don't include documentation or our full build scripts. You can also <span className="text-blue-400 underline">
+            Install Bootstrap's source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed installs don't include documentation or our full build scripts. You can also <a href='#' className="text-blue-400 underline hover:brightness-150">
               use any demo from our Examples repo
-            </span> 
-            to quickly jumpstart Bootstrap projects.
+            </a> 
+            { } to quickly jumpstart Bootstrap projects.
           </p>
           
           <div className="flex justify-between items-center border bg-black/30 border-gray-600 text-gray-300 px-4 py-4 rounded-md mb-4">
@@ -64,9 +64,9 @@ const GetStarted = () => {
           </div>
 
           <div className="">
-            <span className="text-blue-400 underline pr-2">
+            <a href='#' className="text-blue-400 underline hover:brightness-150 pr-2">
               Read our installation docs
-            </span>
+            </a>
             for more info and additional package managers.
           </div>
         </div>
@@ -79,7 +79,7 @@ const GetStarted = () => {
 
           <h3 className="font-bold text-2xl mb-2">Include via CDN</h3>
           <p className="mb-4">
-            When you only need to include Bootstrap's compiled CSS or JS, you can use <span className="text-blue-400 underline">jsDelivr</span>. See it in action with our simple <span className="text-blue-400 underline">quick start</span>, or <span className="text-blue-400 underline">browse the examples</span> to jumpstart your next project. You can also choose to include Popper and our JS <span className="text-blue-400 underline">separately</span>.
+            When you only need to include Bootstrap's compiled CSS or JS, you can use <a href='#' className="text-blue-400 hover:brightness-150 underline">jsDelivr</a>. See it in action with our simple <a href='#' className="text-blue-400 hover:brightness-150 underline">quick start</a>, or <a href='#' className="text-blue-400 hover:brightness-150 underline">browse the examples</a> to jumpstart your next project. You can also choose to include Popper and our JS <a href='#' className="text-blue-400 hover:brightness-150 underline">separately</a>.
           </p>
 
           <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex">
@@ -110,26 +110,26 @@ const GetStarted = () => {
             Get a jump on including Bootstrap's source files in a new project with our official guides.
           </p>
           <div className="flex justify-center gap-4">
-            <div>
+            <a href='#' className='group block'>
               <img src="https://getbootstrap.com/docs/5.3/assets/img/webpack.svg" alt="img_webpack" 
-                className="w-16 mb-2 hover:scale-110 transition-transform delay-100 ease-in-out duration-200"
+                className="w-16 mb-2 group-hover:scale-110 transition-transform delay-100 ease-in-out duration-200"
               />
               <p>Webpack</p>
-            </div>
+            </a>
 
-            <div>
+            <a href='#' className='group block'>
               <img src="https://getbootstrap.com/docs/5.3/assets/img/parcel.png" alt="img_webpack" 
-                className="w-16 mb-2 hover:scale-110 transition-transform delay-100 ease-in-out duration-200"
+                className="w-16 mb-2 group-hover:scale-110 transition-transform delay-100 ease-in-out duration-200"
               />
               <p>Parcel</p>
-            </div>
+            </a>
 
-            <div>
+            <a href='#' className='group block'>
               <img src="https://getbootstrap.com/docs/5.3/assets/img/vite.svg" alt="img_webpack" 
-                className="w-16 mb-2 hover:scale-110 transition-transform delay-100 ease-in-out duration-200"
+                className="w-16 mb-2 group-hover:scale-110 transition-transform delay-100 ease-in-out duration-200"
               />
               <p>Vite</p>
-            </div>
+            </a>
           </div>
         </div>
     </div>

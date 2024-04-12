@@ -156,7 +156,7 @@ const ButtonGroup = () => {
         </div>
         {/* <div className="inline-block"> */}
         <div>
-          <input type="radio" className="peer hidden" id="r-middle" name="radio-1"/>
+          <input type="radio" className="peer hidden" id="r-middle" name="radio-1" checked/>
           <label
             className="border-y border-blue-600 bg-white text-blue-600 px-4 py-2 hover:bg-blue-600 hover:text-white peer-checked:bg-blue-600 peer-checked:text-white inline-block"
             htmlFor="r-middle"

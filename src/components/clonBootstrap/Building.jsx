@@ -30,7 +30,7 @@ const Building = () => {
   `
 
   return (
-    <section className="container mx-auto mb-12 pb-12">
+    <section className="max-w-[1400px] w-full px-6 mx-auto mb-12 pb-12">
       <div className="w-8/12 mb-12">
         <div className="bg-red-800/15 p-4 inline-block rounded-2xl mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-braces text-red-400 w-10 h-10" viewBox="0 0 16 16">

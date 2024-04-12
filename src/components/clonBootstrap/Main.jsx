@@ -4,17 +4,17 @@ const Main = () => {
   const code_build = `npm i bootstrap@5.3.3`
 
   return(
-    <main className=" py-10 mb-10 container mx-auto flex flex-col justify-center items-center">
-      <button className="bg-yellow-300 text-black rounded-full py-1 px-4 text-sm">
+    <main className=" py-10 mb-10 max-w-[1400px] w-2/3 mx-auto flex flex-col justify-center items-center">
+      <a href="#" className="bg-yellow-300 text-black rounded-full py-1 px-4 text-sm">
         <span className="font-semibold">New! </span>
         Never-Ending Support for Bootstrap
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-arrow-right w-4 h-4 pl-1 inline-block" viewBox="0 0 16 16">
           <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
         </svg>
-      </button>
+      </a>
       <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="bootstrap-logo.png" className="h-40 py-4"/>
-      <h1 className="font-bold text-6xl w-3/4 text-center">Build fast, responsive sites with Boostrap</h1>
-      <p className="text-gray-400 text-center w-3/5 text-xl py-4">Powerful, extensible, and feature-packed frontend toolkit. :Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
+      <h1 className="font-bold text-6xl w-4/5 text-center">Build fast, responsive sites with Boostrap</h1>
+      <p className="text-gray-400 text-center w-4/5 text-xl py-4">Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
 
       <div className="flex gap-3 items-center">
         <div className="flex items-center gap-4 border bg-gray-700 border-gray-600 text-gray-300 px-4 py-4 rounded-md">
@@ -36,21 +36,21 @@ const Main = () => {
           v5.3.3  
         </span>
         <span>·</span>
-        <span className="text-blue-400 underline">
+        <a href="#" className="text-blue-400 underline hover:text-blue-500">
           Download
-        </span>
+        </a>
         <span>·</span>
-        <span className="text-blue-400 underline">
+        <a href="#" className="text-blue-400 underline hover:text-blue-500">
           All releases
-        </span>
+        </a>
       </div>
-      <div className="bg-gray-700 rounded-md p-4 flex justify-center gap-4 max-w-md">
+      <a href="#" className="bg-gray-700 rounded-md p-4 flex justify-center gap-4 max-w-md">
         <img src="https://srv.carbonads.net/static/30242/4f7f59796c5dda8f5dfc63a40583dfde7cebb050" alt="ads_carbon" className="w-36"/>
         <div className="text-sm">
           <p className="mb-4">Design and Development tips in your inbox. Every weekday.</p>
           <p>ads vía Carbon</p>
         </div>
-      </div>
+      </a>
     </main>
   )
 }

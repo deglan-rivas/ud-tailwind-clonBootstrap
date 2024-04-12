@@ -38,7 +38,7 @@ const Customization = () => {
   `
 
   return (
-    <section className="container mx-auto mb-12 pb-12">
+    <section className="max-w-[1400px] w-full px-6 mx-auto mb-12 pb-12">
       <div className="w-7/12 mb-12">
         <div className="bg-blue-600/25 p-4 inline-block rounded-2xl mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-palette2 text-blue-500/55 w-10 h-10" viewBox="0 0 16 16">
@@ -62,11 +62,11 @@ const Customization = () => {
           <h3 className="text-3xl mb-2 font-semibold">Include all of Bootstrap's Sass</h3>
           <p className="mb-4">Import one stylesheet and you're off to the races with every feature of our CSS.</p>
           
-          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex">
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 bg-[#1c1c21] flex justify-between">
             <SyntaxHighlighter language='' style={anOldHope}>
               {code_all}
             </SyntaxHighlighter>
-            <div className='bg-[#1c1c21] flex items-center'>
+            <div className=' flex items-center'>
               <Clipboard content={code_all}/>
             </div>
           </div>
@@ -76,11 +76,11 @@ const Customization = () => {
           <h3 className="text-3xl mb-2 font-semibold">Include what you need</h3>
           <p className="mb-4">The easiest way to customize Bootstrap—include only the CSS you need.</p>
           
-          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex">
+          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 bg-[#1c1c21] flex justify-between">
             <SyntaxHighlighter language='' style={anOldHope}>
               {code_needs}
             </SyntaxHighlighter>
-            <div className='bg-[#1c1c21] flex items-center'>
+            <div className=' flex items-center'>
               <Clipboard content={code_needs}/>
             </div>
           </div>

@@ -1,3 +1,12 @@
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/shadcn/ui/dropdown-menu"
+
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { stackoverflowDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import Clipboard from './subcomponents/Clipboard';
@@ -16,7 +25,7 @@ const JQuery = () => {
   </div>
   `
   return (
-    <section className="container mx-auto mb-12 pb-12">
+    <section className="max-w-[1400px] w-full px-6 mx-auto mb-12 pb-12">
       <div className="w-[780px] mb-12">
         <div className="bg-yellow-800/25 p-4 inline-block rounded-2xl mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-plugin w-10 h-10 text-yellow-400" viewBox="0 0 16 16">
@@ -40,14 +49,21 @@ const JQuery = () => {
           <h3 className="text-3xl mb-2 font-semibold">Data attribute API</h3>
           <p className="mb-4">Why write more JavaScript when you can write HTML? Nearly all of Bootstrap's JavaScript plugins feature a first-class data API, allowing you to use JavaScript just by adding <code className="text-red-400 text-sm">data</code> attributes.</p>
 
-          <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex justify-between bg-[#1c1c21]">
-            <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
-              {code_data}
-            </SyntaxHighlighter>
-            <div className='flex items-center'>
-              <Clipboard content={code_data}/>
-            </div>
-          </div>
+          {/* <div className="text-sm rounded-md mb-4 p-6 overflow-hidden border border-gray-600 flex justify-between bg-transparent">
+            <DropdownMenu>
+              <DropdownMenuTrigger className="py-2 px-4 rounded-md text-base !bg-blue-600 hover:bg-blue-700 flex items-center justify-between gap-2">
+                Dropdown
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-2 h-2 bi bi-caret-down-fill group-hover:brightness-200 group-hover:text-white cursor-pointer" viewBox="0 0 16 16">
+                  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="border-gray-600 bg-[#202529] text-white">
+                <DropdownMenuItem>Dropdown item</DropdownMenuItem>
+                <DropdownMenuItem>Dropdown item</DropdownMenuItem>
+                <DropdownMenuItem>Dropdown item</DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div> */}
           <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex justify-between bg-[#1c1c21]">
             <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
               {code_data}
