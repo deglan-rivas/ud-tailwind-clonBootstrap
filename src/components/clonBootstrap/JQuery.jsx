@@ -49,7 +49,7 @@ const JQuery = () => {
           <h3 className="text-3xl mb-2 font-semibold">Data attribute API</h3>
           <p className="mb-4">Why write more JavaScript when you can write HTML? Nearly all of Bootstrap's JavaScript plugins feature a first-class data API, allowing you to use JavaScript just by adding <code className="text-red-400 text-sm">data</code> attributes.</p>
 
-          {/* <div className="text-sm rounded-md mb-4 p-6 overflow-hidden border border-gray-600 flex justify-between bg-transparent">
+          <div className="text-sm rounded-md mb-4 p-6 overflow-hidden border border-gray-600 flex justify-between bg-transparent">
             <DropdownMenu>
               <DropdownMenuTrigger className="py-2 px-4 rounded-md text-base !bg-blue-600 hover:bg-blue-700 flex items-center justify-between gap-2">
                 Dropdown
@@ -63,7 +63,7 @@ const JQuery = () => {
                 <DropdownMenuItem>Dropdown item</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-          </div> */}
+          </div>
           <div className="text-sm rounded-md mb-4 overflow-hidden border border-gray-600 flex justify-between bg-[#1c1c21]">
             <SyntaxHighlighter language='htmlbars' style={stackoverflowDark}>
               {code_data}
