@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section>
+    <section className="h-[600px]">
       <h1>Ga</h1>
     </section>
   )
