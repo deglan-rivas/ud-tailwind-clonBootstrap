@@ -1,7 +1,7 @@
 const Newsletter = () => {
   return (
     <section>
-      {/* <div className="max-w-[1380px] mx-auto px-4 mb-32 text-sm text-gray-600
+      <div className="max-w-[1380px] mx-auto px-4 mb-32 text-sm text-gray-600
       sm:px-8">
         <div className="grid grid-cols-3">
           <div className="uppercase col-span-3 mb-4
@@ -40,7 +40,7 @@ const Newsletter = () => {
             </p>
           </div>
         </div>
-      </div> */}
+      </div>
     </section>
   )
 }
