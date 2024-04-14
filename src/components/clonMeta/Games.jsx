@@ -17,7 +17,7 @@ const Games = () => {
           Browse apps & games
         </a>
         
-        <div className='border border-gray-300 divide-x-2 w-full flex'>
+        <div className='border border-gray-300 divide-x w-full flex'>
           <div className='w-1/5 p-4'>
             <img src={roblox} alt="game_roblox" 
               className='w-ful object-cover mb-4'

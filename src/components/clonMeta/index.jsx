@@ -1,3 +1,4 @@
+import Blog from "./Blog"
 import Footer from "./Footer"
 import Games from "./Games"
 import Hero from "./Hero"
@@ -16,6 +17,7 @@ const Meta = () => {
       <VRBanner/>
       <Products/>
       <Games/>
+      <Blog/>
       <Newsletter/>
       <Footer/>
     </div>
