@@ -37,7 +37,7 @@ const VRBanner = () => {
 
         <div className="col-span-1 bg-[url(https://scontent.flim15-1.fna.fbcdn.net/v/t39.8562-6/409928241_859710259179463_2105968938206980908_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=f537c7&_nc_ohc=O_fvkiY8jz4Ab7DZpHG&_nc_oc=AdjObLjZPjYAOohzKaj87goLHk1M9rLXjdZ8fsGPLcRwPImkMg3xdzMQnyLz1adID2_sE5PfFl-CR0YDJNYFIV8A&_nc_ht=scontent.flim15-1.fna&oh=00_AfDD0JFnIUGdeOyf1HOylx8qJv6wQNPr-BqCpLh-uXFa6A&oe=661FA8EE)] w-full bg-cover bg-right rounded-2xl overflow-hidden pb-10">
           <div className="w-1/2 p-8">
-            <h3 className="text-4xl mb-2">
+            <h3 className="text-4xl mb-2 pt-7">
               Do more in style with Ray-Ban | Meta
             </h3>
             <p className="mb-6 text-sm">

@@ -6,7 +6,7 @@ import ray_ban from './public/products_4.webp'
 const Products = () => {
   return (
     <section>
-      <div className="max-w-[1380px] mx-auto w-full px-8 flex flex-col items-center">
+      <div className="max-w-[1380px] mx-auto w-full px-8 flex flex-col items-center mb-32">
         <h2 className="text-5xl mb-4">
           Shop Meta products
         </h2>
@@ -18,7 +18,7 @@ const Products = () => {
             <img src={meta_quest} alt="products_meta_quest" 
               className='w-64'
             />
-            <p className="text-lg mb-6 w-36 text-center font-semibold">
+            <p className="text-lg mb-6 w-36 text-center font-medium">
               Meta Quest
             </p>
             <a href="#"
@@ -32,7 +32,7 @@ const Products = () => {
             <img src={accessories} alt="products_meta_quest" 
               className='w-64'
             />
-            <p className="text-lg mb-6 w-36 text-center font-semibold">
+            <p className="text-lg mb-6 w-36 text-center font-medium">
               Meta Quest accessories
             </p>
             <a href="#"
@@ -46,7 +46,7 @@ const Products = () => {
             <img src={mixed_reality} alt="products_meta_quest" 
               className='w-64'
             />
-            <p className="text-lg mb-6 w-36 text-center font-semibold">
+            <p className="text-lg mb-6 w-36 text-center font-medium">
               Meta Quest mixed reality
             </p>
             <a href="#"
@@ -60,7 +60,7 @@ const Products = () => {
             <img src={ray_ban} alt="products_meta_quest" 
               className='w-64'
             />
-            <p className="text-lg mb-6 w-36 text-center font-semibold">
+            <p className="text-lg mb-6 w-36 text-center font-medium">
               Ray-Ban | Meta smart glasses
             </p>
             <a href="#"

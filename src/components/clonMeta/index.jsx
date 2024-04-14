@@ -9,7 +9,7 @@ import VRBanner from "./VRBanner"
 
 const Meta = () => {
   return (
-    <div className="">
+    <div className="font-sans">
       <Topbar/>
       <Navbar/>
       <Hero/>
