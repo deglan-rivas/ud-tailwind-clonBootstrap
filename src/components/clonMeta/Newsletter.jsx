@@ -1,21 +1,26 @@
 const Newsletter = () => {
   return (
     <section>
-      <div className="max-w-[1380px] mx-auto px-8 mb-32 text-sm text-gray-600">
+      {/* <div className="max-w-[1380px] mx-auto px-4 mb-32 text-sm text-gray-600
+      sm:px-8">
         <div className="grid grid-cols-3">
-          <div className="uppercase col-span-1">
+          <div className="uppercase col-span-3 mb-4
+          sm:col-span-1">
             Keep your experience up to date
           </div>
-          <div className="col-span-2">
-            <form className="flex items-center gap-3 mb-4">
+          <div className="col-span-3 
+          sm:col-span-2">
+            <form className="flex justify-between items-center gap-3 mb-4 flex-wrap">
               <input 
                 type="text"
                 placeholder="Get news and updates from Meta"
-                className="flex-1 px-4 py-6 border border-gray-300 rounded-md
-                placeholder:text-lg placeholder:text-gray-600"
+                className="basis-full px-4 py-6 border border-gray-300 rounded-md
+                placeholder:text-lg placeholder:text-gray-600
+                sm:flex-1"
               />
               <button
-                className="px-7 py-3 font-medium rounded-full border-2 border-gray-300 cursor-not-allowed"
+                className="basis-full px-7 py-3 font-medium rounded-full border-2 border-gray-300 cursor-not-allowed
+                sm:basis-auto"
                 type="submit"
               >
                 Sign Up
@@ -35,7 +40,7 @@ const Newsletter = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }

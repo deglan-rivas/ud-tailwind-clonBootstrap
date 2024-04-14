@@ -7,13 +7,15 @@ import youtube from './public/footer_logo_yt.svg'
 const Footer = () => {
   return (
     <footer className='border-t border-t-gray-300'>
-    <div className=" max-w-[1380px] mx-auto text-sm text-gray-600">
-      <div className="py-12 px-8 grid grid-cols-3 mb-24">
-        <div className="col-span-1">
+    <div className="max-w-[1380px] mx-auto text-sm text-gray-600">
+      <div className="px-4 py-12 grid grid-cols-3 mb-24
+      sm:px-8">
+        <div className="col-span-3 sm:col-span-1">
           <img src="https://static.xx.fbcdn.net/rsrc.php/y9/r/tL_v571NdZ0.svg" alt="footer_meta" 
-          className="w-24 mb-12"
+          className="w-24 mb-8
+          sm:mb-12"
           />
-          <div className="flex gap-8">
+          <div className="flex gap-8 mb-12">
             <a href="#">
               <img src={fb} alt="footer_logo_fb" className='hover:saturate-[10]'/>
             </a>
@@ -35,7 +37,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="col-span-2 grid grid-cols-3 gap-8">
+        <div className="col-span-3 sm:col-span-2 grid grid-cols-3 gap-8">
           <div className="col-span-1">
             <div className='flex flex-col space-y-1 mb-8'>
               <h4 className="font-medium text-gray-600">
@@ -337,15 +339,18 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='px-8 py-20'>
+      <div className='px-4 py-20 
+      sm:px-8'>
         <div className='grid grid-cols-3'>
-          <div className='col-span-1'>
+          <div className='col-span-3 mb-12 
+          sm:col-span-1'>
             <a href='#' className='underline'>
               United States (English)
             </a>
           </div>
 
-          <div className='col-span-2 space-y-3 text-xs pt-3'>
+          <div className='col-span-3 space-y-3 text-xs pt-3
+          sm:col-span-2'>
             <p className='uppercase'>
               Meta quest
             </p>
