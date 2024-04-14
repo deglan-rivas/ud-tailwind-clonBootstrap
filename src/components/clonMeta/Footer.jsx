@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="col-span-2 grid grid-cols-3 gap-8">
           <div className="col-span-1">
             <div className='flex flex-col space-y-1 mb-8'>
-              <h4 className="font-semibold text-gray-600">
+              <h4 className="font-medium text-gray-600">
                 Site terms and policies
               </h4>
               <a href="#"
@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col space-y-1'>
-              <h4 className="font-semibold text-gray-600">
+              <h4 className="font-medium text-gray-600">
                 Virtual reality
               </h4>
               <a href="#"
@@ -152,7 +152,7 @@ const Footer = () => {
 
           <div className="col-span-1">
             <div className="space-y-1 flex flex-col mb-8">
-              <h4 className="font-semibold text-gray-600">
+              <h4 className="font-medium text-gray-600">
                 Smart glasses
               </h4>
               <a href="#"
@@ -178,7 +178,7 @@ const Footer = () => {
             </div>
 
             <div className="space-y-1 flex flex-col mb-8">
-              <h4 className="font-semibold text-gray-600">
+              <h4 className="font-medium text-gray-600">
                 Support and legal
               </h4>
               <a href="#"
@@ -214,7 +214,7 @@ const Footer = () => {
             </div>
 
             <div className="space-y-1 flex flex-col">
-              <h4 className="font-semibold text-gray-600">
+              <h4 className="font-medium text-gray-600">
                 Our actions
               </h4>
               <a href="#"
@@ -252,7 +252,7 @@ const Footer = () => {
 
           <div className="col-span-1">
             <div className='space-y-1 flex flex-col mb-8'>
-              <h4 className="font-semibold text-gray-600">
+              <h4 className="font-medium text-gray-600">
                 About us
               </h4>
               <a href="#"
@@ -278,7 +278,7 @@ const Footer = () => {
             </div>
 
             <div className="space-y-1 flex flex-col mb-8">
-              <h4 className="font-semibold text-gray-600">
+              <h4 className="font-medium text-gray-600">
                 Our community
               </h4>
               <a href="#"
@@ -299,7 +299,7 @@ const Footer = () => {
             </div>
 
             <div className="space-y-1 flex flex-col">
-              <h4 className="font-semibold text-gray-600">
+              <h4 className="font-medium text-gray-600">
                 App support
               </h4>
               <a href="#"
