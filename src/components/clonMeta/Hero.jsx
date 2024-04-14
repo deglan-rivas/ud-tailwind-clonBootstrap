@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section className="h-[600px] bg-gray-500">
       <div className="max-w-[1230px] mx-auto w-full px-8 py-20">
-        {/* <div className="max-w-lg text-white">
+        <div className="max-w-lg text-white">
           <p className="text-xs font-medium text-yellow-800 rounded-md px-2 py-1 bg-yellow-300 inline-block mb-2">
             Special offer
           </p>
@@ -30,7 +30,7 @@ const Hero = () => {
               </p>
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   )
