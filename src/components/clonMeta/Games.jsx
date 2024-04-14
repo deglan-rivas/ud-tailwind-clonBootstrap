@@ -23,7 +23,7 @@ const Games = () => {
               className='w-ful object-cover mb-4'
             />
             <p className='mb-6 text-2xl'>
-              {/* Roblox */}
+              Roblox
             </p>
           </div>
 
@@ -32,7 +32,7 @@ const Games = () => {
               className='w-ful object-cover mb-4'
             />
             <p className='mb-6 text-2xl'>
-              {/* Asgard's Wrath 2 */}
+              Asgard's Wrath 2
             </p>
           </div>
 
@@ -41,7 +41,7 @@ const Games = () => {
               className='w-ful object-cover mb-4'
             />
             <p className='mb-6 text-2xl'>
-              {/* Peacock */}
+              Peacock
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const Games = () => {
               className='w-ful object-cover mb-4'
             />
             <p className='mb-6 text-2xl'>
-              {/* Supernatural */}
+              Supernatural
             </p>
           </div>
 
@@ -59,7 +59,7 @@ const Games = () => {
               className='w-ful object-cover mb-4'
             />
             <p className='mb-6 text-2xl'>
-              {/* Meta Quest + */}
+              Meta Quest +
             </p>
           </div>
         </div>
