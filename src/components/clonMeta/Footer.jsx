@@ -6,8 +6,9 @@ import youtube from './public/footer_logo_yt.svg'
 
 const Footer = () => {
   return (
-    <footer className="border-t border-t-gray-300 py-12 px-8  text-sm text-gray-600">
-      <div className="max-w-[1380px] mx-auto grid grid-cols-3 mb-24">
+    <footer className='border-t border-t-gray-300'>
+    <div className=" max-w-[1380px] mx-auto text-sm text-gray-600">
+      <div className="py-12 px-8 grid grid-cols-3 mb-24">
         <div className="col-span-1">
           <img src="https://static.xx.fbcdn.net/rsrc.php/y9/r/tL_v571NdZ0.svg" alt="footer_meta" 
           className="w-24 mb-12"
@@ -388,6 +389,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+    </div>
     </footer>
   )
 }
