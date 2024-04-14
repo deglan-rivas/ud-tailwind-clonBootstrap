@@ -12,7 +12,7 @@ const Newsletter = () => {
                 type="text"
                 placeholder="Get news and updates from Meta"
                 className="flex-1 px-4 py-6 border border-gray-300 rounded-md
-                placeholder:text-lg placeholder:text-blue-500"
+                placeholder:text-lg placeholder:text-gray-600"
               />
               <button
                 className="px-7 py-3 font-medium rounded-full border-2 border-gray-300 cursor-not-allowed"
