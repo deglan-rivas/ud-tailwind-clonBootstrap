@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <section className="bg-white text-sm">
+    <section className="bg-white text-sm sticky top-0">
       <nav className="max-w-[1380px] mx-auto w-full px-8 flex justify-between items-center py-5 bg-gray-100">
         <div className="flex items-center gap-6">
           <img src="https://static.xx.fbcdn.net/rsrc.php/y9/r/tL_v571NdZ0.svg" alt="navbar_meta" 
