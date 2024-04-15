@@ -12,6 +12,7 @@ import Themes from "./Themes"
 const Bootstrap = () => {
   return (
     <>
+      <p className="hidden sm:block">ra5</p>
       <Header/>
       <div className="bg-[#202529]/95 text-white">
       {/* <div className="bg-black/85 text-white"> */}

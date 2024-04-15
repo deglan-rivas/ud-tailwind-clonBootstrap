@@ -25,6 +25,7 @@ function App() {
       {/* <S8/> */}
       {/* <S10/> */}
       {/* <Bootstrap/> */}
+      {/* <p className="hidden sm:block w-full">ra2</p> */}
       <Meta/>
     </>
   )
